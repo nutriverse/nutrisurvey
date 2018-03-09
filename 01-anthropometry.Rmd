@@ -1,4 +1,4 @@
-# Childhood undernutrition and anthropometry {#anthro1}
+# Childhood undernutrition and anthropometry {#anthro}
 
 Childhood undernutrition is an important global public health issue contributing to nearly half of all deaths in children under 5 and is widespread in Asia and Africa. This chapter discusses the various forms of childhood undernutrition, describes the indices used to diagnose them and the anthropometric measurements performed that will provide data to calculate the various indices.
 
@@ -18,17 +18,11 @@ Acute undernutrition in a child can manifest in two ways.
 
 2. *Kwashiorkor*: Some children with acute undernutrition develop *nutritional oedema*. Oedema is an accumulation of fluid in the tissue, especially the feet and legs and nutritional oedema is specifically characterised as being _bilateral and pitting_. The child with *kwashiorkor* is _withdrawn_, _irritable_, _obviously ill_ and _will not eat_. The hair is thin, sparse and sometimes discoloured. The skin has symmetrical discoloured patches where the skin later cracks and peels off.
 
-<center>
-
-![Child with Bilateral oedema, skin and hair changes](images/oedema01.jpg)
-
-</center>
-
-<center>
-
-![Bilateral pitting oedeam](images/oedema02.jpg)
-
-</center>
+```{r fig.cap = c("Child with bilateral oedema, skin and hair changes", "Bilateral pitting oedema"), echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("images/oedema01.jpg")
+cat('\n\n')
+knitr::include_graphics("images/oedema02.jpg")
+```
 
 B. Anthropometric indices
 
@@ -99,3 +93,8 @@ Like with acute undernutrition, an index is used to classify whether a child has
 +-------------------------+-----------------------------------+
 | HAZ < -3SD              | Severe stunting/stuntedness       |
 +-------------------------+-----------------------------------+
+
+## Performing anthropometric measurements
+
+As described in this chapter, to be able to assess the anthropometric indices for acute and chronic undernutrition four (4) anthropometric measurements needs to be collected: 1) *weight*; 2) *height*; 3) *mid-upper arm circumference (MUAC)*; and, 4) *oedema*. In addition to these anthropometric measurements, information on the child's *age (in months)* and *sex* will also be needed to be able to determine the appropriate reference standards to use in calculating the child's corresponding anthropometric indices. The next chapters provide detailed directions on how to perform the various anthropometric measurements accurately.
+
