@@ -1,0 +1,14 @@
+--- 
+title: "A Guide to Nutrition and Food Security Assessments"
+author: "Ernest Guevarra"
+date: "05/03/2018"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+fontsize: 12pt
+description: "A guide to nutrition and food security assessments"
+---
+
+# Introduction

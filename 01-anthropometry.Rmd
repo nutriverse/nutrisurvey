@@ -1,0 +1,101 @@
+# Childhood undernutrition and anthropometry {#anthro1}
+
+Childhood undernutrition is an important global public health issue contributing to nearly half of all deaths in children under 5 and is widespread in Asia and Africa. This chapter discusses the various forms of childhood undernutrition, describes the indices used to diagnose them and the anthropometric measurements performed that will provide data to calculate the various indices.
+
+## Forms of childhood undernutrition
+Childhood undernutrition manifests in various forms. It is important to note the use of the term undernutrition rather than malnutrition as this guide will not touch upon overweight and obesity. In this guide, the focus will be on two forms of undernutrition: 1) acute undernutrition; and, 2) chronic undernutrition. Childhood undernutrition manifested as micronutrient deficiencies will not be discussed.
+
+### Acute undernutrition
+Childhood **acute undernutrition** is a condition related to a child's acute inadequate nutrition leading to rapid weight loss or failure to gain weight normally. Situations such as acute shortage of food and/or acute episodes of childhood illnesses such as diarrhoea, acute respiratory infections and/or malaria can bring about this rapid weight loss or weight gain failure in children.
+
+\newpage
+
+A. Physical signs and symptoms
+
+Acute undernutrition in a child can manifest in two ways.
+
+1. *Marasmus*: This condition is also called *wasting* given that a child suffering from it presents as _wasted_ with an appearance of _"skin and bones"_ because of _excessive thinness_ that is due to rapid loss of muscle and fatty tissue. Other physical features include the child's face looking like an old man's (_old man facies_ due to loss of facial subcutaneous fat), child's rib cage is easily visible and skin folds on buttocks and thighs appearing like _"baggy pants"_.
+
+2. *Kwashiorkor*: Some children with acute undernutrition develop *nutritional oedema*. Oedema is an accumulation of fluid in the tissue, especially the feet and legs and nutritional oedema is specifically characterised as being _bilateral and pitting_. The child with *kwashiorkor* is _withdrawn_, _irritable_, _obviously ill_ and _will not eat_. The hair is thin, sparse and sometimes discoloured. The skin has symmetrical discoloured patches where the skin later cracks and peels off.
+
+<center>
+
+![Child with Bilateral oedema, skin and hair changes](images/oedema01.jpg)
+
+</center>
+
+<center>
+
+![Bilateral pitting oedeam](images/oedema02.jpg)
+
+</center>
+
+B. Anthropometric indices
+
+The physical signs and symptoms of acute undernutrition described above are considered pathognomonic of the condition i.e., if these signs and symptoms are found in a child, it is very likley that the child has acute undernutrition. However, other than physical signs, there are anthropometric indices used to diagnose acute undernutrition in children.
+
+1. Weight-for-height/weight-for-length
+
+The first independent criteria for *marasmus* or *wasting* is weight-for-height (WFH)/weight-for-length (WFL). Given *child A*, this child's weight is assessed against the mean weight of a standard group of children in good health with the same height or length as *child A* (length is measured when the child is < 85 cms in height or < 24 months old). *Child A* is expected to have a weight close to the mean weight of the standard group of healthy children if *child A* is also healthy and is not undernourished. However, if *child A*'s weight deviates significantly farther from the mean weight of the standard group of healthy children, *child A* is considered to have low weight for its height and therefore considered *marasmic* or *wasted*. This deviation from the mean, also called *standard deviation (SD)* in statistics, is calculated for each child whose weight and height have been measured and is expressed in terms of *z-scores*. Therefore, the anthropometric index used for *wasting* is weight-for-height z-scores (WHZ) and classification of level of wasting is done based on the following WHZ cut-offs:
+
+&nbsp;
+
++-------------------------+-----------------------------------+
+| **WHZ**                 | **Classification**                |
++=========================+===================================+
+| WHZ < -2SD              | Global Acute malnurition (GAM)    |
++-------------------------+-----------------------------------+
+| -3SD $\geq$ WHZ < -2SD  | Moderate acute malnutrition (MAM) |
++-------------------------+-----------------------------------+
+| WHZ < -3SD              | Severe acute malnutrition (SAM)   |
++-------------------------+-----------------------------------+
+
+
+2. Mid-upper arm circumference
+
+The other independent criteria for *marasmus* or *wasting* is the *mid-upper arm circumference* or *MUAC*. *MUAC* is a measure of muscle mass and therefore detects loss of muscle mass due to wasting. *MUAC* is a good predictor of mortality and in many studies, *MUAC* predicted death in children better than any other anthropometric indicator. Unlike weight-for-height, *MUAC* is used as an anthropometric index without need for standardisation. The *MUAC* cut-offs used to classify a child as being *marasmic* or *wasted* are:
+
+&nbsp;
+
++-------------------------+-----------------------------------+
+| **MUAC (mm)**           | **Classification**                |
++=========================+===================================+
+| MUAC < 125              | Global Acute malnurition (GAM)    |
++-------------------------+-----------------------------------+
+| 115 $\geq$ MUAC < 125   | Moderate acute malnutrition (MAM) |
++-------------------------+-----------------------------------+
+| MUAC < 115              | Severe acute malnutrition (SAM)   |
++-------------------------+-----------------------------------+
+
+
+3. Oedema test
+
+The final index for acute undernutrition is *oedema testing* for *kwarshiorkor* cases. This test checks whether _oedema_ is present and whether it is _bilateral_ and _pitting_. Any sign of bilateral pitting oedema, regardless of WHZ or MUAC classification, is considered *severe acute malnutrition*.
+
+
+### Chronic undernutrition
+Childhood **chronic undernutrition** is a condition related to a child's exposure to inadequate nutrition over a long period of time leading to failure of linear growth. Stunted growth reflects a process of failure to reach linear growth potential as a result of suboptimal health and/or nutritional conditions.
+
+&nbsp;
+
+A. Physical signs and symptoms
+
+A child suffering from chronic undernutrition is also called *stunting/stunted*. Such a child is said to be short for its age (see below).
+
+&nbsp;
+
+B. Anthropometric indices
+
+Like with acute undernutrition, an index is used to classify whether a child has chronic malnutrition or not. This index is called height-for-age (HFA) or length-for-age (LFA). Given *child B*, this child's length/height is assessed against the mean length/height of a standard group of children in good health with the same age as *child B*. *Child B* is expected to have a length/height close to the mean length/height of the standard group of healthy children if *child B* is also health and well-nourished. However, if *child B*'s length/height deviates significantly farther from the mean height of the standard group of healthy children, *child B* is considered to have low height for its age and therefore considered to be *stunting* or *stunted*. This deviation from the mean, also called *standard deviation (SD)* in statistics, is calculated for each child whose height has been measured and is expressed in terms of *z-scores*. Therefore, the anthropometric index used for *stunting/stuntedness* is height-for-age z-scores (HAZ) and classification of level of stunting/stuntedness is done based on the following WHZ cut-offs:
+
+&nbsp;
+
++-------------------------+-----------------------------------+
+| **HAZ**                 | **Classification**                |
++=========================+===================================+
+| HAZ < -2SD              | Global stunting/stuntedness       |
++-------------------------+-----------------------------------+
+| -3SD $\geq$ HAZ < -2SD  | Moderate stunting/stuntedness     |
++-------------------------+-----------------------------------+
+| HAZ < -3SD              | Severe stunting/stuntedness       |
++-------------------------+-----------------------------------+
