@@ -1,1 +1,47 @@
-# Measuring oedema {#oedema}
+# Checking for oedema {#oedema}
+
+Nutritional oedema, manifested as bilateral pitting oedema, is a sign of severe acute malnutrition. Nutritional oedema always starts from the feet and extends upwards to other parts of the body. Children with nutritional oedema are at high risk of mortality hence require immediate therapeutic care. This [chapter](#oedema) describes how to check nutritional oedema.
+
+## Equipment
+
+No tool or equipment is needed for checking for nutritional oedema.
+
+## Personnel
+
+Oedema check can be performed by a single person.
+
+## Steps in checking for nutritional oedema
+
+1. Press both feet with thumbs
+
+Using both thumbs of your hands, apply normal pressure on top of both feet of the child for about three seconds as shown below. You can estimate three seconds by counting ***‘one thousand and one, one thousand and two, one thousand and three’*** in English. It takes roughly 3 seconds to be able to say these words.
+
+```{r oedemaStep1, fig.cap = "Press both feet with thumbs", echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("images/oedemaStep1.jpg")
+```
+
+2. Release pressure from feet
+
+After three seconds, release the pressure you are applying on the child’s feet. Observe the resulting effect on the child’s feet.
+
+If there is oedema, an impression remains on both feet for a few seconds as shown below.
+
+```{r oedemaStep2, fig.cap = "Bilateral pitting oedema observed after releasing thumbs", echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("images/oedemaStep2.jpg")
+```
+
+3. Move up to check on the lower legs
+If there is nutritional oedema present on the feet, perform the same test described in step 2 but now move up to the lower legs.
+
+4. Move up to the upper body and/or face
+If there is nutritional oedema present on the lower legs, perform the same test described in step 2 but now move up to the upper body and/or the face.
+
+**Step 3** and **Step 4** are performed to be able to grade or classify the level of nutritional oedema the child is suffering from (if present).
+
+  * Oedema below the ankes: +
+  * Oedema in both feet and legs, below the knees: ++
+  * Oedema on both feet, legs, arms and sacral pad and eye lids: +++
+  
+5. Record on the paper questionnaire or the mobile device the presence or absence of oedema. If oedema is present, record also the grade of the oedema.
+
+**Note:** Children with oedema (any grade) are at risk of dying and should be immediately referred to a health care facility (ideally a facility that manages severe acute undernutrition).
