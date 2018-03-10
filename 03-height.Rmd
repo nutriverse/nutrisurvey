@@ -34,15 +34,15 @@ knitr::include_graphics("images/height.png")
 
 2.	**Measurer** or **Assistant** should ask the mother to remove the child's shoes and unbraid any hair that would interfere with the height measurement. Ask mother to walk the child to the board and to kneel in front of the child.
 
-3. 	**Assistant** should place the paper questionnaire or mobile device on the ground (`arrow 1`) and kneel with both knees on the right side of the child (`arrow 2`). 
+3. 	**Assistant** should place the paper questionnaire or mobile device on the ground (**arrow 1**) and kneel with both knees on the right side of the child (**arrow 2**). 
 
-4. **Measurer** should kneel on their right knee only, for maximum  mobility, on the child's left side  (`arrow 3`).
+4. **Measurer** should kneel on their right knee only, for maximum  mobility, on the child's left side  (**arrow 3**).
 
-5.	**Assistant** should place the child's feet flat and together in the centre of and against the back and base of the board. The assistant should place right hand just above the child's ankles on the shins (`arrow 4`) with left hand on the child's knees (`arrow 5`) and push against the board making sure the child's legs are straight and the heels and calves are against the board (`arrows 6` and `7`).  The **assistant** then notifies the measurer when positioning of the feet and legs is complete.
+5.	**Assistant** should place the child's feet flat and together in the centre of and against the back and base of the board. The assistant should place right hand just above the child's ankles on the shins (**arrow 4**) with left hand on the child's knees (**arrow 5**) and push against the board making sure the child's legs are straight and the heels and calves are against the board (**arrows 6** and **7**).  The **assistant** then notifies the measurer when positioning of the feet and legs is complete.
 
-6.	**Measurer** tells the child to look straight ahead at the mother if she is in front of the child.  Make sure the child's line of sight is level with the ground (`arrow 8`). **Measurer** places open left hand on the child's chin and gradually closes hand (`arrow 9`) taking care that the child's mouth or ears are not covered. The **measurer** makes sure the shoulders are level (`arrow 10`), the hands are at the child's side (`arrow 11`), and the head, shoulder blades and buttocks are against the board (`arrows 12`,`13` and `14`). With the right hand, the **measurer** lowers the headpiece on top of the child's head making sure that the headpiece pushes through the child's hair (`arrow 15`).
+6.	**Measurer** tells the child to look straight ahead at the mother if she is in front of the child.  Make sure the child's line of sight is level with the ground (**arrow 8**). **Measurer** places open left hand on the child's chin and gradually closes hand (**arrow 9**) taking care that the child's mouth or ears are not covered. The **measurer** makes sure the shoulders are level (**arrow 10**), the hands are at the child's side (`arrow 11`), and the head, shoulder blades and buttocks are against the board (**arrows 12**, **13** and **14**). With the right hand, the **measurer** lowers the headpiece on top of the child's head making sure that the headpiece pushes through the child's hair (**arrow 15**).
 
-7.	**Measurer** and **Assistant** should check the child's position (`arrow 1-15`) and repeating any steps necessary.
+7.	**Measurer** and **Assistant** should check the child's position (**arrow 1-15**) and repeating any steps necessary.
 
 8. When the child's position is correct, the **measurer** reads and calls out the measurement to the nearest 0.1cm.  Then, the **measurer** removes the headpiece from the child's head and releases the left hand from the child's chin and supports the child during the recording.
 
@@ -58,21 +58,25 @@ knitr::include_graphics("images/length.png")
 
 1. **Measurer** or **assistant** places the measuring board on a hard flat surface, such as the ground, floor or a steady table.
 
-2.	**Assistant** places the paper questionnaire or the mobile device on the ground, floor or table (`arrow 1`) and kneels with both knees behind the base of the board, if it is on the ground or floor (`arrow 2`).
+2.	**Assistant** places the paper questionnaire or the mobile device on the ground, floor or table (**arrow 1**) and kneels with both knees behind the base of the board, if it is on the ground or floor (**arrow 2**).
 
-3	**Measurer** kneels on the child's right side so that you can hold the footpiece with your right hand (Arrow 3). 
-(4)	Measurer and assistant: With the mother's/caretaker's help, lay the child on the board by doing the following: 
-Assistant: Support the back of the child's head with your hands and gradually lower the child onto the board. 
-Measurer: Support the child at the trunk of the body. 
-(5)	Measurer or assistant: Ask the mother/caretaker to kneel on the opposite side of the board facing the measurer to help keep the child calm. 
-(6)	Assistant: Cup your hands over the child's ears (Arrow 4). With your arms comfortably straight (Arrow 5), place the child's head against the base of the board so that the child is looking straight up. The child's line of sight should be perpendicular to the ground (Arrow 6). Your head should be straight over the child's head. Look directly into the child's eyes. 
-(7)	Measurer: Make sure the child is lying flat and in the centre of the board (Arrow 7). Place your left hand on the child's shins (above the ankles) or on the knees (Arrow 8). Press them firmly against the board. With your right hand, place the footpiece firmly against the child's heels (Arrow 9). 
-(8)	Measurer and assistant: Check the child's position (Arrows 4-9). Repeat any steps as necessary. 
-(9)	Measurer: When the child's position is correct, read and call out the measurement to the nearest 0.1 centimetre. Remove the footpiece, release your left hand from the child's shins or knees and support the child during the recording. 
-(10)	Assistant: Immediately release the child's head, record the measurement in AN4 and show it to the measurer. Alternatively, the assistant could call out the measurement and have the measurer confirm by repeating back.
-(11)	Assistant: Record in AN4A whether the child was measured lying down or standing up.
-(12)	Measurer: Check the recorded measurement on the questionnaire for accuracy and legibility. Instruct the assistant to cancel and correct any errors. 
+3.	**Measurer** kneels on the child's right side and holds the footpiece with right hand (**arrow 3**).
 
-NOTE:
-If the interviewer is not confident in the precision of the child's age (under age 2), please take measurement as described above. If the child's length is measured to 85 cm or more, you must instead measure the child's height.
+4. With the mother's/caretaker's help, the **measurer** and **assistant** should lay the child on the board. The **assistant** should support the back of the child's head with hands and gradually lower the child onto the board. The **measurer** on the other hand supports the child at the trunk of the body. 
+
+5. **Measurer** or **assistant** asks the mother/caretaker to kneel on the opposite side of the board facing the measurer to help keep the child calm.
+
+6. **Assistant** cups hands over the child's ears (**arrow 4**). With arms comfortably straight (**arrow 5**), **assistant** places the child's head against the base of the board so that the child is looking straight up. The child's line of sight should be perpendicular to the ground (**arrow 6**). The **assistant's** head should be straight over the child's head and looking directly into the child's eyes.
+
+7. **Measurer** makes sure the child is lying flat and in the centre of the board (**arrow 7**) and places left hand on the child's shins (above the ankles) or on the knees (**arrow 8**) pressing them firmly against the board. With the right hand, **measurer** places the footpiece firmly against the child's heels (**arrow 9**).
+
+8. **Measurer** and **assistant** checks the child's position (**arrows 4-9**) and repeats any steps as necessary to correct child's position.
+
+9. When the child's position is correct, **measurer** reads and calls out the measurement to the nearest 0.1 centimetre. The **measurer** then removes the footpiece, releases left hand from the child's shins or knees and supports the child during the recording. 
+
+10.	The **assistant** then immediately releases the child's head, records the measurement on the paper questionnaire or mobile device and shows it to the **measurer**. Alternatively, the **assistant** calls out the measurement and have the **measurer** confirm by repeating back.
+
+11.	**Assistant** records whether the child was measured lying down or standing up.
+
+12.	**Measurer** checks the recorded measurement on the questionnaire for accuracy and legibility then instructs the assistant to cancel and correct any errors. 
 
