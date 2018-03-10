@@ -1,5 +1,5 @@
 --- 
-title: "A Guide to Nutrition and Food Security Assessments"
+title: "A Guide to Implementing Nutrition and Food Security Surveys"
 author: "Valid International"
 date: "05/03/2018"
 site: bookdown::bookdown_site
@@ -8,7 +8,9 @@ bibliography: ["book.bib"]
 biblio-style: "apalike"
 link-citations: TRUE
 fontsize: 12pt
-description: "A guide to nutrition and food security assessments"
+description: "A guide to nutrition and food security surveys"
 ---
 
 # Introduction
+
+Nutrition and food security surveys 
