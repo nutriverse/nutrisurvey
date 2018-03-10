@@ -6,7 +6,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Nutrition and Food Security Assessments</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="http://www.validinternational.org" target="blank">@ Valid International 2018</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
