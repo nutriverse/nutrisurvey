@@ -10,17 +10,17 @@ Various types of scales are available to measure the weight of a child: 1) *spri
 
 *Spring scales* are the most common type of scales used worldwide. *Hanging scales* are a kind of *spring scale* that is hung from a height instead of laid flat on the ground. *Hanging scales* are commonly preferred in many countries because they can be transported easily, can be used in almost any setting (particularly where a flat surface is not available) and are relatively inexpensive. However, they are not very accurate and as such are not recommended for use in nutrition surveys.
 
-```{r fig.cap = "Bathroom scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r weight1, fig.cap = "Bathroom scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/springScale.jpg")
 ```
 
-```{r fig.cap = "Hanging scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r weight2, fig.cap = "Hanging scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/hangingScale.png")
 ```
 
 *Balance beam scales* are commonly used in health centers, as they need to be positioned on a flat surface for accurate measurement and are not easily transported.
 
-```{r fig.cap = "Balance beam scales", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r weight3, fig.cap = "Balance beam scales", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/balanceBeam.jpg")
 ```
 
@@ -48,13 +48,18 @@ In addition to being a *digital scale*, it is recommended to weigh children usin
 
 Currently, the most commonly used digital tared weighing scale is the **UNICEF Electric Scale (UNISCALE)** which is produced by **SECA** (the non-UNICEF branded scale is the **SECA model 890** or **SECA model 874**)
 
-```{r fig.cap = "SECA scale model 874", echo = FALSE, fig.align = "center", fig.retina = 1}
+```{r weight4, fig.cap = "SECA scale model 874", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/seca874.png")
 ```
 
 ### General use, care and maintenance of SECA tared scales
 
 1. Place the scale on a hard, level surface (wood, concrete, or firm earth). Soft or uneven surfaces may cause small errors in weighing. It is therefore advisable that each survey team are provided with a wooden plank that can be laid on top of unlevel ground as a way to even out the surface. The plank should be big enough to cover a reasonable surface and sturdy enough to carry the weight of the scale and those being weighed.
+
+```{r weight5, fig.cap = "Weighing scale on a wooden plank", echo = FALSE, fig.align = "center", fig.retina = 1}
+knitr::include_graphics("images/weight01.jpg")
+```
+
 
 2. The scale will not function correctly if it becomes too warm.  It is best to use the scale in the shade, or indoors.  If the scale becomes hot and does not work correctly, place it in a cooler area and wait 15 minutes before using again.
 

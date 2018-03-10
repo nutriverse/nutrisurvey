@@ -1,5 +1,12 @@
 # Anthropometric measurement standardisation test {#standard}
 
+The training of personnel on specific measurement and recording techniques includes not only theoretical explanations and demonstrations, but also an opportunity to allow participants to practice the measurement techniques, as well as reading and recording the results. This practice is more efficient when a large number of children are available.
+Once all personnel have adequately practiced the measurement and recording techniques, and feel comfortable with their performance, standardization exercises can be carried out. Each exercise is performed with a group of 10 children whose ages fall within the pre- established range for the study. A sequential identification number is assigned to both children and staff. To conduct the exercises the following are needed:
+• balances/scales and height boards;
+• pens; and
+• sufficient Anthropometric Standard- ization Forms 1 and 2, to record the exercise number, name and number of the measurer, date on which the exercise is conducted, and a sequential listing of children with their name, age and identification number.
+
+
 This chapter provides detailed instructions on how to carry out an anthropometric measurement standardisation test as part of a training process in preparation for a nutrition survey.
 
 
