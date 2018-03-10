@@ -24,7 +24,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={A Guide to Nutrition and Food Security Assessments},
+            pdftitle={A Guide to Implementing Nutrition and Food Security Surveys},
             pdfauthor={Valid International},
             pdfborder={0 0 0},
             breaklinks=true}
@@ -76,7 +76,7 @@
 }
 
 \setlength{\droptitle}{-2em}
-  \title{A Guide to Nutrition and Food Security Assessments}
+  \title{A Guide to Implementing Nutrition and Food Security Surveys}
   \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
   \author{Valid International}
@@ -87,6 +87,39 @@
   \date{05/03/2018}
 
 \usepackage{booktabs}
+\usepackage{color}
+\usepackage{tcolorbox}
+\graphicspath{ {images/} }
+
+\newenvironment{rmdnote}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Note}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{pencil.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+  
+\newenvironment{rmdinfo}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Info}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{info.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}  
+  
+\newenvironment{rmdwarning}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Warning}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{warning.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -102,6 +135,7 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 \newtheorem*{solution}{Solution}
+\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -111,6 +145,8 @@
 }
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
+
+Nutrition and food security surveys
 
 \hypertarget{anthro}{%
 \chapter{Childhood undernutrition and anthropometry}\label{anthro}}
@@ -818,7 +854,7 @@ becoming the base when the board is set upright.
 
 }
 
-\caption{2-piece height board standing up}\label{fig:unnamed-chunk-13}
+\caption{2-piece height board standing up}\label{fig:height01}
 \end{figure}
 
 \begin{figure}
@@ -827,7 +863,7 @@ becoming the base when the board is set upright.
 
 }
 
-\caption{2-piece height board lying down}\label{fig:unnamed-chunk-14}
+\caption{2-piece height board lying down}\label{fig:height02}
 \end{figure}
 
 \begin{figure}
@@ -836,7 +872,7 @@ becoming the base when the board is set upright.
 
 }
 
-\caption{2-piece height board folded and carried}\label{fig:unnamed-chunk-15}
+\caption{2-piece height board folded and carried}\label{fig:height03}
 \end{figure}
 
 \hypertarget{personnel-1}{%
@@ -870,7 +906,7 @@ placed on a flat, stable surface such as a table.
 
 }
 
-\caption{Length board flat on a stable surface}\label{fig:unnamed-chunk-16}
+\caption{Length board flat on a stable surface}\label{fig:height04}
 \end{figure}
 
 For children 24 months and older, height should be measured i.e., height
@@ -885,7 +921,7 @@ pillar.
 
 }
 
-\caption{Height board mounted upright}\label{fig:unnamed-chunk-17}
+\caption{Height board mounted upright}\label{fig:height05}
 \end{figure}
 
 Standing height is about 0.7 cm less than recumbent length. This
@@ -918,7 +954,7 @@ to be made to the height/length measurements post-survey.
 
 }
 
-\caption{Steps in measuring height}\label{fig:unnamed-chunk-18}
+\caption{Steps in measuring height}\label{fig:height06}
 \end{figure}
 
 \begin{enumerate}
@@ -981,11 +1017,13 @@ to be made to the height/length measurements post-survey.
   erase and correct any errors.
 \end{enumerate}
 
-\textbf{Note:} If you are unsure or not confident in the precision of
-the child's age (over age 2), please take measurement as described
-above. If the child's height is measured to less than 85 cm, you must
-instead measure the child's length (see
-\protect\hyperlink{measuring-length}{Measuring length}).
+\BeginKnitrBlock{rmdnote}
+If you are unsure or not confident in the precision of the child's age
+(over age 2), please take measurement as described above. If the child's
+height is measured to less than 85 cm, you must instead measure the
+child's length (see \protect\hyperlink{measuring-length}{Measuring
+length}).
+\EndKnitrBlock{rmdnote}
 
 \hypertarget{measuring-length}{%
 \subsection{Measuring length}\label{measuring-length}}
@@ -996,7 +1034,7 @@ instead measure the child's length (see
 
 }
 
-\caption{Steps in measuring length}\label{fig:unnamed-chunk-19}
+\caption{Steps in measuring length}\label{fig:height07}
 \end{figure}
 
 \begin{enumerate}
@@ -1041,7 +1079,7 @@ instead measure the child's length (see
 
 }
 
-\caption{Positioning child's head against the base of the board}\label{fig:unnamed-chunk-20}
+\caption{Positioning child's head against the base of the board}\label{fig:height08}
 \end{figure}
 
 \begin{enumerate}
@@ -1063,7 +1101,7 @@ instead measure the child's length (see
 
 }
 
-\caption{Measurer and assistant working together to position child}\label{fig:unnamed-chunk-21}
+\caption{Measurer and assistant working together to position child}\label{fig:height09}
 \end{figure}
 
 \begin{enumerate}
@@ -1094,11 +1132,13 @@ instead measure the child's length (see
   correct any errors.
 \end{enumerate}
 
-\textbf{Note:} If are unsure or not confident in the precision of the
-child's age (under age 2), take measurement as described above. If the
-child's length is measured to 85 cm or more, you must instead measure
-the child's height (see \protect\hyperlink{measuring-height}{Measuring
+\BeginKnitrBlock{rmdnote}
+If you are unsure or not confident in the precision of the child's age
+(under age 2), take measurement as described above. If the child's
+length is measured to 85 cm or more, you must instead measure the
+child's height (see \protect\hyperlink{measuring-height}{Measuring
 height}).
+\EndKnitrBlock{rmdnote}
 
 \hypertarget{muac}{%
 \chapter{Measuring mid-upper arm circumference (MUAC)}\label{muac}}
@@ -1200,7 +1240,131 @@ MUAC measurement.
 \end{enumerate}
 
 \hypertarget{oedema}{%
-\chapter{Measuring oedema}\label{oedema}}
+\chapter{Checking for oedema}\label{oedema}}
+
+Nutritional oedema, manifested as bilateral pitting oedema, is a sign of
+severe acute malnutrition. Nutritional oedema always starts from the
+feet and extends upwards to other parts of the body. Children with
+nutritional oedema are at high risk of mortality hence require immediate
+therapeutic care. This \protect\hyperlink{oedema}{chapter} describes how
+to check nutritional oedema.
+
+\hypertarget{equipment-3}{%
+\section{Equipment}\label{equipment-3}}
+
+No tool or equipment is needed for checking for nutritional oedema.
+
+\hypertarget{personnel-3}{%
+\section{Personnel}\label{personnel-3}}
+
+Oedema check can be performed by a single person.
+
+\hypertarget{steps-in-checking-for-nutritional-oedema}{%
+\section{Steps in checking for nutritional
+oedema}\label{steps-in-checking-for-nutritional-oedema}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Press both feet with thumbs
+\end{enumerate}
+
+Using both thumbs of your hands, apply normal pressure on top of both
+feet of the child for about three seconds as shown below. You can
+estimate three seconds by counting \textbf{\emph{`one thousand and one,
+one thousand and two, one thousand and three'}} in English. It takes
+roughly 3 seconds to be able to say these words.
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.94in]{images/oedemaStep1} 
+
+}
+
+\caption{Press both feet with thumbs}\label{fig:oedemaStep1}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Release pressure from feet
+\end{enumerate}
+
+After three seconds, release the pressure you are applying on the
+child's feet. Observe the resulting effect on the child's feet.
+
+If there is oedema, an impression remains on both feet for a few seconds
+as shown below.
+
+\begin{figure}
+
+{\centering \includegraphics[width=6.94in]{images/oedemaStep2} 
+
+}
+
+\caption{Bilateral pitting oedema observed after releasing thumbs}\label{fig:oedemaStep2}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Move up to check on the lower legs If there is nutritional oedema
+  present on the feet, perform the same test described in step 2 but now
+  move up to the lower legs.
+\item
+  Move up to the upper body and/or face If there is nutritional oedema
+  present on the lower legs, perform the same test described in step 2
+  but now move up to the upper body and/or the face.
+\end{enumerate}
+
+\textbf{Step 3} and \textbf{Step 4} are performed to be able to grade or
+classify the level of nutritional oedema the child is suffering from (if
+present).
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.75\columnwidth}\raggedright
+\textbf{Oedema Description}\strut
+\end{minipage} & \begin{minipage}[b]{0.20\columnwidth}\raggedright
+\textbf{Grade}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.75\columnwidth}\raggedright
+Oedema below the knees\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+\texttt{+}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.75\columnwidth}\raggedright
+Oedema in both feet and legs, below the knees\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+\texttt{++}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.75\columnwidth}\raggedright
+Oedema in both feet, legs, arms and sacral pad and eyelids\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+\texttt{+++}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Record on the paper questionnaire or the mobile device the presence or
+  absence of oedema. If oedema is present, record also the grade of the
+  oedema.
+\end{enumerate}
+
+\textbf{Note:} Children with oedema (any grade) are at risk of dying and
+should be immediately referred to a health care facility (ideally a
+facility that manages severe acute undernutrition).
 
 \hypertarget{standard}{%
 \chapter{Anthropometric measurement standardisation
@@ -1209,6 +1373,12 @@ test}\label{standard}}
 This chapter provides detailed instructions on how to carry out an
 anthropometric measurement standardisation test as part of a training
 process in preparation for a nutrition survey.
+
+\hypertarget{diet}{%
+\chapter{Measuring dietary diversity}\label{diet}}
+
+\hypertarget{food}{%
+\chapter{Measuring food consumption}\label{food}}
 
 \bibliography{book.bib}
 
