@@ -1,10 +1,11 @@
 bookdown::gitbook:
+  highlight: tango
   css: style.css
   fig_caption: yes
   config:
     toc:
       before: |
-        <li><a href="./">Nutrition and Food Security Assessments</a></li>
+        <li><a href="./">Nutrition and Food Security Surveys</a></li>
       after: |
         <li><a href="http://www.validinternational.org" target="blank">@ Valid International 2018</a></li>
     download: ["pdf", "epub"]
