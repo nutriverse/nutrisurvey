@@ -1,4 +1,4 @@
-p.caption {
+.caption {
   color: #777;
   margin-top: 10px;
 }
@@ -12,3 +12,51 @@ pre {
 pre code {
   white-space: inherit;
 }
+.rmdnote {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #add8e6;
+  background: rgba(204,229,255,0.6);
+  border-radius: 15px;
+  position:relative;
+}
+.rmdnote:before {
+    content: "\f040";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+.rmdinfo {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #98fb98;
+  background: rgba(152,251,152,0.6);
+  border-radius: 15px;
+  position:relative;
+}
+.rmdinfo:before {
+    content: "\f129";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+.rmdwarning {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #ffff00;
+  background: rgba(255,255,0,0.6);
+  border-radius: 15px;
+  position:relative;
+}
+.rmdwarning:before {
+    content: "\f071";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ } 
