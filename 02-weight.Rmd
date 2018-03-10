@@ -109,7 +109,7 @@ a. _Weigh child on scale on their own_
 
 If child is able to stand still on the scale long enough, the child can be weighed alone. **Measurer** should explain to the child that he/she will need to step on to the scale alone and standing very still. **Measurer** will ask the child to stand in the middle of the scale, feet slightly apart and to remain still until the weight appears and that the measurement is retained on the display (about 3 seconds that the measurement is stable with child standing still and not moving the display will stop flashing signifying that the weight display has been stored). It is important that no one holds or supports the child until a weight measurement has been retained on the display successfully as this will interfere with the measurement. If the child does not stand still or is unable or does not want to stand on his/her own, then step b below should performed instead.
 
-The **measurer** then reads out loud the child's weight from the display. The **measurer** should read the measurement entirely including the one decimal place that shows in display. Note that when using the SECA 874, the weight is displayed with two decimal places but the second decimal number is always 0. The second decimal place is not recorded.
+The **measurer** then reads out loud the child's weight from the display. The **measurer** should read the measurement entirely including the one decimal place that shows in display (to the nearest 0.1 kg). Note that when using the SECA 874, the weight is displayed with two decimal places but the second decimal number is always 0. The second decimal place is not recorded.
 
 The **assistant** then repeats the weight that has been called out.
 
