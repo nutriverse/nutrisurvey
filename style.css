@@ -12,6 +12,22 @@ pre {
 pre code {
   white-space: inherit;
 }
+.rmdremind {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #add8e6;
+  background: rgba(204,229,255,0.6);
+  border-radius: 15px;
+  position:relative;
+}
+.rmdremind:before {
+    content: "\f0f3";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
 .rmdnote {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
