@@ -56,10 +56,9 @@ knitr::include_graphics("images/seca874.png")
 
 1. Place the scale on a hard, level surface (wood, concrete, or firm earth). Soft or uneven surfaces may cause small errors in weighing. It is therefore advisable that each survey team are provided with a wooden plank that can be laid on top of unlevel ground as a way to even out the surface. The plank should be big enough to cover a reasonable surface and sturdy enough to carry the weight of the scale and those being weighed.
 
-```{r weight5, fig.cap = "Weighing scale on a wooden plank", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/weight01.jpg")
+```{r weight5, fig.cap = "Weighing scale on a wooden plank", echo = FALSE, fig.align = "center", out.width = "50%", fig.retina = 1}
+knitr::include_graphics("images/weight01.png")
 ```
-
 
 2. The scale will not function correctly if it becomes too warm.  It is best to use the scale in the shade, or indoors.  If the scale becomes hot and does not work correctly, place it in a cooler area and wait 15 minutes before using again.
 
@@ -86,23 +85,23 @@ At least two trained personnel are required when performing weight measurement. 
 
 Explain to parents/caretakers that the child needs to remove outer clothing in order to obtain an accurate weight. A wet diaper, or shoes and jeans, can contribute substantially to the measured weight (up to 0.5 kgs) making the measurement inaccurate. Babies should be weighed naked but precautions needs to be put in place to ensure that the baby stay warm while waiting to be weighed and while they are being weighed. They can be wrapped in a blanket to keep them warm while waiting. When being weighed, the adult can be weighed holding a blanket that can be used to wrap around the naked baby during measurement. Older children should remove all but minimal clothing, such as their underclothes. 
 
-If it is too cold to undress a child or if the child resists being undressed and becomes agitated, please weigh the clothed child, but indicate in the questionnaire that the child could not be undressed to the minimum and take a note of the circumstances.
+If it is too cold to undress a child or if the child resists being undressed and becomes agitated, please weigh the clothed child, but indicate in the questionnaire that the child could not be undressed to the minimum and take a note of the circumstances. To be able to adjust the weight of clothed children, weigh one set of child's clothing separately and record. This weight will be used in adjusting the weight measurement of all children weighed with clothes on. 
 
 2. *Switch on scale*
 
 The **measurers** should switch on the scale with no weight applied. The **SECA 874** can be turned on by tapping the **start** button. The **SECA 890** can be turned on by covering the solar cells for less than a second.
 
-```{r, fig.cap = "Turning on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight6, fig.cap = "Turning on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca874start.png")
 ```
 
-```{r, fig.cap = "Turning on the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight7, fig.cap = "Turning on the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca890start.png")
 ```
 
 When the **SECA 890** is switched on, you will first notice the display showing `188.8`. Wait for the display to turn `0.0` before putting any weight onto the scale. The **assistant** on the other hand will be holding onto the paper questionniare or the mobile device. The **assistant** will be in charge of recording the weight measurement.
 
-```{r, fig.cap = "SECA 890 ready", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight8, fig.cap = "SECA 890 ready", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/seca890zero.png")
 ```
 
@@ -128,25 +127,25 @@ If child is unable to stand still on the scale long enough or if child doesn't w
 
 The **measurer** asks the mother/caretaker to step onto the scale and then to stand still. After about 3 seconds, the weight of the mother/caretaker will be displayed.
 
-```{r, fig.cap = "Weighing the adult first on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight9, fig.cap = "Weighing the adult first on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca874adult.png")
 ```
 
 If using the **SECA 874**, the **measurer** will have to press the **2 in 1** key found on the scale. This will store the weight of the mother/caretaker. The display on the device would show `0.0` reading and the word **NET** indicating that the weight of the mother/caretaker has been stored.
 
-```{r, fig.cap = "Taring the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight10, fig.cap = "Taring the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca874net.png")
 ```
 
 If using the **SECA 890**, the **measurer** will have to cover the solar cell of the device for less than a second and the display will revert back to `0.0` reading. This indicates that the weight of the mother/caretaker has been stored.
 
-```{r, fig.cap = "Taring the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight11, fig.cap = "Taring the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca890cover.png")
 ```
 
 The **measurer** then asks the mother/caretaker to hold/carry the baby/child on their arms and to again stand as still as possible. The display will show a weight measure. If the weight display and the message `HOLD` are flashing, it means that the scale is waiting for the measurement to stabilise. The **measurer** should wait for the weight display and the message `HOLD` to stop flashing before reading the weight measurement.
 
-```{r, fig.cap = "SECA 874 on hold", echo = FALSE, fig.align = "center", fig.retina = 1}  
+```{r weight12, fig.cap = "SECA 874 on hold", echo = FALSE, fig.align = "center", fig.retina = 1}  
 knitr::include_graphics("images/seca874hold.png")
 ```
 
@@ -156,21 +155,14 @@ The **assistant** then repeats the weight that has been called out.
 
 The **measurer** then confirms if this is the correct weight. If correct, then the **assistant** records the weight measurement on the paper questionnaire or on the mobile device. If incorrect, **measurer** reads out the measurement again until the **assistant** is able to repeat the correct weight.
 
+```{block2, type = "rmdremind"}
+\item Always calibrate scales ever day in the morning before data collection.
 
+\item Always measure weight before height.
 
+\item If there is more than 1 eligible child in a household, always weigh the less agitated one first.
 
+\item Try and obtain scales that are sturdy but light enough to be carried easily by the team.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\item Measure weight without clothes.
+```
