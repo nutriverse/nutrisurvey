@@ -9,7 +9,7 @@ The standardisation test evaluates the **precision** and the **accuracy** of the
 The **accuracy** of measurements taken by survey personnel is determined by how close they are to the true value with repeated measurements. On the other hand, the **precision** of measurements taken by survey personnel is determined by how similar the values are of repeated measurements made. In preparation for a nutrition survey while the survey personnel are in training, the aim is for survey personnel to be *highly accurate* and *highly precise* with their anthropometric measurements.
 
 ```{r standard01, fig.cap = "Relationship between accuracy and precision", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/accuracyPrecision.jpg")
+knitr::include_graphics("images/accuracyPrecision.png")
 ```
 
 ## Mechanics
@@ -54,8 +54,6 @@ The following test organisation and requirements need to be met in order to cond
 8. It is not allowed for pairs of survey personnel to speak with other pairs during the test
 
 
-
-
 ### Timeframe
 
 In order to follow the test parameters specified above and organise the test appropriately, a considerable amount of time needs to be set aside for conducting the test.
@@ -71,9 +69,9 @@ For larger scale surveys with survey personnel more than 20, more days will be r
 
 1. The supervisor carefully performs the measurements on each child without allowing the teams to see the values. The supervisor records his/her measurements on the standardisation test form for the first round of measurements.
 
-<p style="text-align: center;">Standardisation Test Form</p>
+<p style="text-align: center;">Standardisation Test Form - Measurement Round 1</p>
                   
- Enumerator ID: _____          Enumerator Name: ___________________         Measurement Round: 1st Round
+ Enumerator ID: _____          &nbsp; &nbsp; &nbsp;     Enumerator Name: ___________________         
 
 +--------------------+--------------------+--------------------+--------------------+--------------------+
 | Child ID           | Weight (kg)        | Height (cm)        | MUAC (mm)          | Oedema (yes/no)    |
@@ -98,6 +96,8 @@ For larger scale surveys with survey personnel more than 20, more days will be r
 +--------------------+--------------------+--------------------+--------------------+--------------------+
 | 10                 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+--------------------+
+
+Download the standardisation test form [here](pdf/standardForm.pdf).
 
 2. Each team starts with a different child, and the first half of the team measures the child once and records the results in a standard form for the 1st measurement (as above). The current measurer should make sure that he/she is entering data in the row corresponding to the child ID of the child he/she is currently measuring.
 
