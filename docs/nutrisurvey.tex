@@ -91,6 +91,18 @@
 \usepackage{tcolorbox}
 \graphicspath{ {images/} }
 
+\newenvironment{rmdremind}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Remember}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{remind.png}
+  \begin{itemize}}
+  {\end{itemize}
+  \end{includegraphics}
+  \end{tcolorbox}}
+
 \newenvironment{rmdnote}
   {\begin{tcolorbox}[width=\textwidth, 
                      colback = {white}, 
@@ -464,7 +476,7 @@ nutrition surveys.
 
 }
 
-\caption{Bathroom scale (spring)}\label{fig:unnamed-chunk-2}
+\caption{Bathroom scale (spring)}\label{fig:weight1}
 \end{figure}
 
 \begin{figure}
@@ -473,7 +485,7 @@ nutrition surveys.
 
 }
 
-\caption{Hanging scale (spring)}\label{fig:unnamed-chunk-3}
+\caption{Hanging scale (spring)}\label{fig:weight2}
 \end{figure}
 
 \emph{Balance beam scales} are commonly used in health centers, as they
@@ -486,7 +498,7 @@ not easily transported.
 
 }
 
-\caption{Balance beam scales}\label{fig:unnamed-chunk-4}
+\caption{Balance beam scales}\label{fig:weight3}
 \end{figure}
 
 \emph{Digital scales} on the other hand are highly accurate (for as long
@@ -542,7 +554,7 @@ Currently, the most commonly used digital tared weighing scale is the
 
 }
 
-\caption{SECA scale model 874}\label{fig:unnamed-chunk-5}
+\caption{SECA scale model 874}\label{fig:weight4}
 \end{figure}
 
 \hypertarget{general-use-care-and-maintenance-of-seca-tared-scales}{%
@@ -551,6 +563,7 @@ scales}\label{general-use-care-and-maintenance-of-seca-tared-scales}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   Place the scale on a hard, level surface (wood, concrete, or firm
   earth). Soft or uneven surfaces may cause small errors in weighing. It
@@ -559,6 +572,20 @@ scales}\label{general-use-care-and-maintenance-of-seca-tared-scales}}
   even out the surface. The plank should be big enough to cover a
   reasonable surface and sturdy enough to carry the weight of the scale
   and those being weighed.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/weight01} 
+
+}
+
+\caption{Weighing scale on a wooden plank}\label{fig:weight5}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
 \item
   The scale will not function correctly if it becomes too warm. It is
   best to use the scale in the shade, or indoors. If the scale becomes
@@ -638,7 +665,10 @@ should remove all but minimal clothing, such as their underclothes.
 If it is too cold to undress a child or if the child resists being
 undressed and becomes agitated, please weigh the clothed child, but
 indicate in the questionnaire that the child could not be undressed to
-the minimum and take a note of the circumstances.
+the minimum and take a note of the circumstances. To be able to adjust
+the weight of clothed children, weigh one set of child's clothing
+separately and record. This weight will be used in adjusting the weight
+measurement of all children weighed with clothes on.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -659,7 +689,7 @@ covering the solar cells for less than a second.
 
 }
 
-\caption{Turning on the SECA 874}\label{fig:unnamed-chunk-6}
+\caption{Turning on the SECA 874}\label{fig:weight6}
 \end{figure}
 
 \begin{figure}
@@ -668,7 +698,7 @@ covering the solar cells for less than a second.
 
 }
 
-\caption{Turning on the SECA 890}\label{fig:unnamed-chunk-7}
+\caption{Turning on the SECA 890}\label{fig:weight7}
 \end{figure}
 
 When the \textbf{SECA 890} is switched on, you will first notice the
@@ -684,7 +714,7 @@ charge of recording the weight measurement.
 
 }
 
-\caption{SECA 890 ready}\label{fig:unnamed-chunk-8}
+\caption{SECA 890 ready}\label{fig:weight8}
 \end{figure}
 
 \begin{enumerate}
@@ -762,7 +792,7 @@ mother/caretaker will be displayed.
 
 }
 
-\caption{Weighing the adult first on the SECA 874}\label{fig:unnamed-chunk-9}
+\caption{Weighing the adult first on the SECA 874}\label{fig:weight9}
 \end{figure}
 
 If using the \textbf{SECA 874}, the \textbf{measurer} will have to press
@@ -777,7 +807,7 @@ weight of the mother/caretaker has been stored.
 
 }
 
-\caption{Taring the SECA 874}\label{fig:unnamed-chunk-10}
+\caption{Taring the SECA 874}\label{fig:weight10}
 \end{figure}
 
 If using the \textbf{SECA 890}, the \textbf{measurer} will have to cover
@@ -791,7 +821,7 @@ the mother/caretaker has been stored.
 
 }
 
-\caption{Taring the SECA 890}\label{fig:unnamed-chunk-11}
+\caption{Taring the SECA 890}\label{fig:weight11}
 \end{figure}
 
 The \textbf{measurer} then asks the mother/caretaker to hold/carry the
@@ -808,7 +838,7 @@ reading the weight measurement.
 
 }
 
-\caption{SECA 874 on hold}\label{fig:unnamed-chunk-12}
+\caption{SECA 874 on hold}\label{fig:weight12}
 \end{figure}
 
 Once the weight display has stopped flashing, The \textbf{measurer}
@@ -825,6 +855,30 @@ correct, then the \textbf{assistant} records the weight measurement on
 the paper questionnaire or on the mobile device. If incorrect,
 \textbf{measurer} reads out the measurement again until the
 \textbf{assistant} is able to repeat the correct weight.
+
+\BeginKnitrBlock{rmdremind}
+\item 
+
+Always calibrate scales ever day in the morning before data collection.
+
+\item 
+
+Always measure weight before height.
+
+\item 
+
+If there is more than 1 eligible child in a household, always weigh the
+less agitated one first.
+
+\item 
+
+Try and obtain scales that are sturdy but light enough to be carried
+easily by the team.
+
+\item 
+
+Measure weight without clothes.
+\EndKnitrBlock{rmdremind}
 
 \hypertarget{height}{%
 \chapter{Measuring height}\label{height}}
@@ -923,6 +977,9 @@ pillar.
 
 \caption{Height board mounted upright}\label{fig:height05}
 \end{figure}
+
+Measuring children standing up is much easier. Length is much more
+difficult to measure than height.
 
 Standing height is about 0.7 cm less than recumbent length. This
 difference was taken into account in developing the WHO growth
@@ -1024,6 +1081,11 @@ height is measured to less than 85 cm, you must instead measure the
 child's length (see \protect\hyperlink{measuring-length}{Measuring
 length}).
 \EndKnitrBlock{rmdnote}
+
+\BeginKnitrBlock{rmdwarning}
+Common mistakes when measuring height include 1) child leaning to one
+side; 2) heels not touching the board; 3) hands not at side.
+\EndKnitrBlock{rmdwarning}
 
 \hypertarget{measuring-length}{%
 \subsection{Measuring length}\label{measuring-length}}
@@ -1140,6 +1202,30 @@ child's height (see \protect\hyperlink{measuring-height}{Measuring
 height}).
 \EndKnitrBlock{rmdnote}
 
+\BeginKnitrBlock{rmdwarning}
+Common mistakes when measuring length include 1) toes pointed; 2) knees
+bent; 3) head lifted off the board.
+\EndKnitrBlock{rmdwarning}
+
+\BeginKnitrBlock{rmdremind}
+\item 
+
+The measuring boards should be at least 130 cm in length and be made of
+treated wood.
+
+\item 
+
+There should be measuring tape on both sides of the measuring board.
+
+\item 
+
+The measuring board must be cleaned before being stored.
+
+\item 
+
+Record measurements to the nearest 0.1 cm.
+\EndKnitrBlock{rmdremind}
+
 \hypertarget{muac}{%
 \chapter{Measuring mid-upper arm circumference (MUAC)}\label{muac}}
 
@@ -1238,6 +1324,16 @@ MUAC measurement.
 \item
   \textbf{Measurer} removes the tape from the child's arm.
 \end{enumerate}
+
+\BeginKnitrBlock{rmdwarning}
+Common mistakes when measuring MUAC include 1) measuring on the right
+arm; 2) estimating (rather than measuring) the mid-point of the upper
+arm; 3) bending the MUAC tape when measuring the midpoint; 4) not
+measuring the midpoint from the tip of the shoulder to the elbow bend;
+5) pulling the MUAC tape too tight; 6) not pulling the MUAC tape tight
+enough (too slack); 7) not reading the tape accurately (to nearest
+millimetre).
+\EndKnitrBlock{rmdwarning}
 
 \hypertarget{oedema}{%
 \chapter{Checking for oedema}\label{oedema}}
@@ -1362,17 +1458,315 @@ Oedema in both feet, legs, arms and sacral pad and eyelids\strut
   oedema.
 \end{enumerate}
 
-\textbf{Note:} Children with oedema (any grade) are at risk of dying and
-should be immediately referred to a health care facility (ideally a
-facility that manages severe acute undernutrition).
+\BeginKnitrBlock{rmdnote}
+Children with oedema (any grade) are at risk of dying and should be
+immediately referred to a health care facility (ideally a facility that
+manages severe acute undernutrition).
+\EndKnitrBlock{rmdnote}
+
+\BeginKnitrBlock{rmdremind}
+\item 
+
+Oedema is a very rare event.
+
+\item 
+
+Most common source of errors.
+
+\item 
+
+Be careful of misclassifying oedematous child.
+
+\item 
+
+Team leader and/or supervisor should confirm oedema.
+\EndKnitrBlock{rmdremind}
 
 \hypertarget{standard}{%
 \chapter{Anthropometric measurement standardisation
 test}\label{standard}}
 
-This chapter provides detailed instructions on how to carry out an
-anthropometric measurement standardisation test as part of a training
-process in preparation for a nutrition survey.
+The survey personnel should go through theoretical discussions and
+demonstrations on how to perform the anthropometric measurements. This
+should then be followed by practical demonstration of the measurement
+techniques, measurement readings and recording ideally with a large
+numbe of children particularly if there is a large number of survey
+personnel. Once all personnel have had the opportunity to adequately
+practice their measurement and recording techniques, a standardisation
+test or exercise must be carried out. Chapter {[}\#standard{]} provides
+detailed instructions on how to carry out an anthropometric measurement
+standardisation test as part of a training process in preparation for a
+nutrition survey.
+
+\hypertarget{objectives}{%
+\section{Objectives}\label{objectives}}
+
+The standardisation test evaluates the \textbf{precision} and the
+\textbf{accuracy} of the measurements taken by each survey personnel.
+
+The \textbf{accuracy} of measurements taken by survey personnel is
+determined by how close they are to the true value with repeated
+measurements. On the other hand, the \textbf{precision} of measurements
+taken by survey personnel is determined by how similar the values are of
+repeated measurements made. In preparation for a nutrition survey while
+the survey personnel are in training, the aim is for survey personnel to
+be \emph{highly accurate} and \emph{highly precise} with their
+anthropometric measurements.
+
+\begin{figure}
+
+{\centering \includegraphics[width=37.62in]{images/accuracyPrecision} 
+
+}
+
+\caption{Relationship between accuracy and precision}\label{fig:standard01}
+\end{figure}
+
+\hypertarget{mechanics}{%
+\section{Mechanics}\label{mechanics}}
+
+The general process of the standardisation test is for each survey
+personnel to take measurements of at least 10 children 6-59 months,
+twice, with an interval of time between the 1st and 2nd measurements.
+
+\hypertarget{test-parameters}{%
+\subsection{Test parameters}\label{test-parameters}}
+
+The following test parameters need to be followed when conducting an
+anthopometric standardisation test:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The same type of equipment must be used both during the
+  standardisation test and the survey
+\item
+  Each child is measured with the same equipment
+\item
+  The supervisor must observe how measurements are being taken
+\item
+  Survey personnel measurements are compared to the reference
+  (supervisor) values
+\item
+  Survey personnel measurements are compared to the repeated measures
+  taken (intra-observer)
+\end{enumerate}
+
+\hypertarget{test-organisation-and-requirements}{%
+\subsection{Test organisation and
+requirements}\label{test-organisation-and-requirements}}
+
+The following test organisation and requirements need to be met in order
+to conduct a credible standardisation test:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Spacious and shady area
+\item
+  Healthy children between 6 and 59 months or according to the age group
+  targeted by the survey
+\item
+  Incentives provided for the mother and children
+\item
+  Survey personnel are grouped into pairs, but each personnel will carry
+  out the measurements in turn
+\item
+  There should only be one pair of survey personnel per child at any
+  time during the test
+\item
+  Each survey personnel is given a unique ID. For example if there are
+  20 survey personnel, a unique ID from 1 to 20 is given to each survey
+  personnel. The supervisor's ID is always 0
+\item
+  Each measurement station should have a height board, weighing scale
+  and a MUAC tape
+\item
+  Each child must remain with their mother in a fixed station with a
+  unique ID number. For example if there are 10 mother and children
+  pairs, a unique ID from 1 to 10 is given to each pair
+\item
+  It is not allowed for pairs of survey personnel to speak with other
+  pairs during the test
+\end{enumerate}
+
+\hypertarget{timeframe}{%
+\subsection{Timeframe}\label{timeframe}}
+
+In order to follow the test parameters specified above and organise the
+test appropriately, a considerable amount of time needs to be set aside
+for conducting the test.
+
+For a survey team of about 20 survey personnel, the test can be carried
+out in 2 half-days such that half of the survey personnel (first half of
+each team) measures 10 children in the morning and the other half
+(second half of each team) measures the same 10 children in the
+afternoon.
+
+It would be possible to have a different set of 10 children for the
+afternoon session. However, the results of the first half who took the
+test in the morning cannot be combined with the results of the second
+half who took the test in the afternoon.
+
+For larger scale surveys with survey personnel more than 20, more days
+will be required to conduct the test to appropriately and to correct
+specifiations.
+
+\hypertarget{steps-in-carrying-out-the-standardisation-test}{%
+\subsection{Steps in carrying out the standardisation
+test}\label{steps-in-carrying-out-the-standardisation-test}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The supervisor carefully performs the measurements on each child
+  without allowing the teams to see the values. The supervisor records
+  his/her measurements on the standardisation test form.
+\end{enumerate}
+
+Standardisation Test Form
+
+Enumerator ID: \textbar{}\textbf{\textbar{}}\textbar{} Enumerator Name:
+\textbar{}\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\textbar{} Measurement
+Round: \textbar{}\_\_\textbar{}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\raggedright
+Child ID\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Weight (kg)\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Height (cm)\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+MUAC (mm)\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Oedema (yes/no)\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+01\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+02\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+03\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+04\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+05\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+06\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+07\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+08\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+09\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+10\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+ Each team starts with a different child, and each enumerator measures
+the child once and records the results in a standard form for the 1st
+measurement.  When each member of the team has done the measurements,
+they should move on to the next child. After the 10 children have been
+measured once by all enumerators the forms are handed in. The teams and
+the children then take a break.  The whole process is repeated after
+the break, but enumerators should not be able to see the previous
+measurements.  Offer incentives to the mothers and children !
 
 \hypertarget{diet}{%
 \chapter{Measuring dietary diversity}\label{diet}}
