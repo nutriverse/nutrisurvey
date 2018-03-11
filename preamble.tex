@@ -3,6 +3,18 @@
 \usepackage{tcolorbox}
 \graphicspath{ {images/} }
 
+\newenvironment{rmdremind}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Remember}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{remind.png}
+  \begin{itemize}}
+  {\end{itemize}
+  \end{includegraphics}
+  \end{tcolorbox}}
+
 \newenvironment{rmdnote}
   {\begin{tcolorbox}[width=\textwidth, 
                      colback = {white}, 
