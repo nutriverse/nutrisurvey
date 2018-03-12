@@ -13,4 +13,4 @@ description: "A guide to nutrition and food security surveys"
 
 # Introduction
 
-Nutrition and food security surveys 
+Nutrition and food security surveys provide the information from which to assess the nutritional and food security status of a population. This document provides guidance on specific aspects of conducting nutrition and food security surveys. Chapter 2 to 7 focus on the various anthropometric measurements
