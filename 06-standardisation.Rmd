@@ -97,7 +97,9 @@ For larger scale surveys with survey personnel more than 20, more days will be r
 | 10                 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+--------------------+
 
+```{block2, type = "rmddownload"}
 Download the standardisation test form [here](pdf/standardForm.pdf).
+```
 
 2. Each team starts with a different child, and the first half of the team measures the child once and records the results in a standard form for the 1st measurement (as above). The current measurer should make sure that he/she is entering data in the row corresponding to the child ID of the child he/she is currently measuring.
 
