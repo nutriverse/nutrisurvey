@@ -155,10 +155,16 @@ The **assistant** then repeats the weight that has been called out.
 
 The **measurer** then confirms if this is the correct weight. If correct, then the **assistant** records the weight measurement on the paper questionnaire or on the mobile device. If incorrect, **measurer** reads out the measurement again until the **assistant** is able to repeat the correct weight.
 
+&nbsp;
+
 ```{block2, type = "rmdremind"}
 \item Always calibrate scales ever day in the morning before data collection.
+
 \item Always measure weight before height.
+
 \item If there is more than 1 eligible child in a household, always weigh the less agitated one first.
+
 \item Try and obtain scales that are sturdy but light enough to be carried easily by the team.
+
 \item Measure weight without clothes.
 ```

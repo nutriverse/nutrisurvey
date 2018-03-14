@@ -71,9 +71,13 @@ knitr::include_graphics("images/height.png")
 
 10.	**Measurer** checks the recorded measurement on the questionnaire for accuracy and legibility and instructs the **assistant** to erase and correct any errors.
 
+&nbsp;
+
 ```{block2, type = "rmdnote"}
 If you are unsure or not confident in the precision of the child's age (over age 2), please take measurement as described above. If the child's height is measured to less than 85 cm, you must instead measure the child's length (see [Measuring length]).
 ```
+
+&nbsp;
 
 ```{block2, type = "rmdwarning"}
 Common mistakes when measuring height include 1) child leaning to one side; 2) heels not touching the board; 3) hands not at side.
@@ -117,17 +121,26 @@ knitr::include_graphics("images/heightBoard06.png")
 
 12.	**Measurer** checks the recorded measurement on the questionnaire for accuracy and legibility then instructs the assistant to cancel and correct any errors.
 
+&nbsp;
+
 ```{block2, type = "rmdnote"}
 If you are unsure or not confident in the precision of the child's age (under age 2), take measurement as described above. If the child's length is measured to 85 cm or more, you must instead measure the child's height (see [Measuring height]).
 ```
+
+&nbsp;
 
 ```{block2, type = "rmdwarning"}
 Common mistakes when measuring length include 1) toes pointed; 2) knees bent; 3) head lifted off the board.
 ```
 
+&nbsp;
+
 ```{block2, type = "rmdremind"}
 \item The measuring boards should be at least 130 cm in length and be made of treated wood.
+
 \item There should be measuring tape on both sides of the measuring board.
+
 \item The measuring board must be cleaned before being stored.
+
 \item Record measurements to the nearest 0.1 cm.
 ```

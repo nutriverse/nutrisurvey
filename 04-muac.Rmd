@@ -40,6 +40,8 @@ knitr::include_graphics("images/muac02.png")
 
 10. **Measurer** removes the tape from the child’s arm.
 
+&nbsp;
+
 ```{block2, type = "rmdwarning"}
 Common mistakes when measuring MUAC include 1) measuring on the right arm; 2) estimating (rather than measuring) the mid-point of
 the upper arm; 3) bending the MUAC tape when measuring the midpoint; 4) not measuring the midpoint from the tip of the shoulder to the elbow bend; 5) pulling the MUAC tape too tight; 6) not pulling the MUAC tape tight enough (too slack); 7) not reading the tape accurately (to nearest millimetre).

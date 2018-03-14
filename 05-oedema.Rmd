@@ -50,13 +50,20 @@ If there is nutritional oedema present on the lower legs, perform the same test 
 
 5. Record on the paper questionnaire or the mobile device the presence or absence of oedema. If oedema is present, record also the grade of the oedema.
 
+&nbsp;
+
 ```{block2, type = "rmdnote"}
 Children with oedema (any grade) are at risk of dying and should be immediately referred to a health care facility (ideally a facility that manages severe acute undernutrition).
 ```
 
+&nbsp;
+
 ```{block2, type = "rmdremind"}
 \item Oedema is a very rare event.
+
 \item It is the most common source of errors.
+
 \item Be careful of misclassifying oedematous child.
+
 \item Team leader and/or supervisor should confirm oedema.
 ```
