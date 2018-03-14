@@ -1,2 +1,49 @@
 # Household Food Insecurity Access Scale {#hfias}
 
+## Introduction
+Houesehold Food Insecurity Access Scale (HFIAS) is one of the experience-based food insecurity scales. Experience-based indicators are constructed from a short questionnaire that captures households’ behavioral and psychological manifestations of insecure food access, such as having to reduce the number of meals consumed or cut back on the quality of the food due to a lack of resources. HFIAS was developed in 2006 by the USAID-funded Food and Nutrition Technical Assistance II project (FANTA) in collaboration with Tufts and Cornell Universities, among other partners.
+
+## HFIAS Questionnaire
+
+The HFIAS uses a questionnaire of 9 items which are called **occurence questions** (i.e., whether condition stated in the question has happened or not) based on a 30-day recall. If condition has happened, a further question is then asked which is called a **frequency-of-occurence question**. The possible responses for the **frequency-of-occurence** are categorical - *rarely* (once or twice in the past four weeks); *sometimes* (three to ten times in the past four weeks); and *often* (more than ten times in the past four weeks).
+
+The generic occurence questions are as follows:
+
++----------+--------------------------------------------------------------------------------+
+| 1        | In the past four weeks, did you worry that your household would not have enough|
+|          | food?                                                                          |
++----------+--------------------------------------------------------------------------------+
+| 2        | In the past four weeks, were you or any household member not able to eat the   |
+|          | kinds of foods you preferred because of a lack of resources?                   |
++----------+--------------------------------------------------------------------------------+
+| 3        | In the past four weeks, did you or any household member have to eat a limited  |
+|          | variety of foods due to a lack of resources?                                   |
++----------+--------------------------------------------------------------------------------+
+| 4        | In the past four weeks, did you or any household member have to eat some foods |
+|          | that you really did not want to eat because of a lack of resources to obtain   |
+|          | other types of food?                                                           |
++----------+--------------------------------------------------------------------------------+
+| 5        | In the past four weeks, did you or any household member have to eat a smaller  |
+|          | meal than you felt you needed because there was not enough food?               |
++----------+--------------------------------------------------------------------------------+
+| 6        | In the past four weeks, did you or any household member have to eat fewer meals|
+|          | in a day because there was not enough food?                                    |
++----------+--------------------------------------------------------------------------------+
+| 7        | In the past four weeks, was there ever no food to eat of any kind in your      |
+|          | household because of lack of resources to get food?                            |
++----------+--------------------------------------------------------------------------------+
+| 8        | In the past four weeks, did you or any household member go to sleep at night   |
+|          | hungry because there was not enough food?                                      |
++----------+--------------------------------------------------------------------------------+
+| 9        | In the past four weeks, did you or any household member go a whole day and     |
+|          | night without eating anything because there was not enough food?               |
++----------+--------------------------------------------------------------------------------+
+
+
+The occurence questions can be grouped into 3 domains to which they relate to with regard to food insecurity that have been found to be common across cultures. These domains are:
+
+1. Anxiety and uncertainty about the household food supply
+2. Insufficient Quality (includes variety and preferences of the type of food)
+3. Insufficient food intake and its physical consequences
+
+
