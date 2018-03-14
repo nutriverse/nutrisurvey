@@ -61,6 +61,7 @@ The other independent criteria for *marasmus* or *wasting* is the *mid-upper arm
 | MUAC < 115              | Severe acute malnutrition (SAM)   |
 +-------------------------+-----------------------------------+
 
+&nbsp;
 
 3. Oedema test
 
@@ -93,6 +94,8 @@ Like with acute undernutrition, an index is used to classify whether a child has
 +-------------------------+-----------------------------------+
 | HAZ < -3SD              | Severe stunting/stuntedness       |
 +-------------------------+-----------------------------------+
+
+&nbsp;
 
 ## Performing anthropometric measurements
 
