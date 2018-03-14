@@ -66,7 +66,7 @@ Following is a model questionnaire that can be used for collecting data on **FCS
 | **Food source codes:**                                                                                      |
 +=============================================================================================================+
 | Purchase = 1; Own production = 2; Traded goods/services, barter = 3; Borrowed = 4;                          |
-| Received as gifts = 5; Food aid = 6; Others| (specify) = 7                                                  |
+| Received as gifts = 5; Food aid = 6; Others: (specify) = 7                                                  |
 +-------------------------------------------------------------------------------------------------------------+
 
 This model questionnaire should be adapted to each survey context in which it is to be used.
@@ -119,6 +119,5 @@ The **FCS** or the frequency weighted diet diversity score is a score calculated
 +--------------------+----------------------------------------+
 | 21.5 - 35          | Borderline                             |
 +--------------------+----------------------------------------+
-| > 35               |                                        |
+| $>$ 35             | Acceptable                             |
 +--------------------+----------------------------------------+
-
