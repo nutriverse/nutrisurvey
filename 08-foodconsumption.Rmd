@@ -28,7 +28,7 @@ Following is a model questionnaire that can be used for collecting data on **FCS
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
 |     | Food item                              | Number of days     | Primary source     | Secondary source   |
 |     |                                        | eaten in the past  | (see codes)        | (see codes)        |
-+=====+========================================+====================+====================+====================+
++:===:+========================================+====================+====================+====================+
 | 1   | Maize                                  |                    |                    |                    |
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
 | 2   | Rice                                   |                    |                    |                    |
@@ -79,7 +79,7 @@ The **FCS** or the frequency weighted diet diversity score is a score calculated
 
 +-----+----------------------------------------+--------------------+--------------------+
 |     | Food items                             | Food groups        | Weight             |
-+=====+========================================+====================+====================+
++:===:+========================================+====================+====================+
 | 1   | Maize , maize porridge, rice, sorghum, | Main staples       | 2                  | 
 |     | millet pasta, bread and other cereals  |                    |                    |
 |     | Cassava, potatoes and sweet potatoes,  |                    |                    |
@@ -113,7 +113,7 @@ The **FCS** or the frequency weighted diet diversity score is a score calculated
 **Step 5.** Using the appropriate thresholds (see below), recode the variable food consumption score, from a continuous variable to a categorical variable.
 
 +--------------------+----------------------------------------+
-| FCS                | Profiles                               |
+| **FCS**            | **Profiles**                           |
 +====================+========================================+
 | 0 - 21             | Poor                                   |
 +--------------------+----------------------------------------+

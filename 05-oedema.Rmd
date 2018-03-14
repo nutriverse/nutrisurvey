@@ -56,10 +56,7 @@ Children with oedema (any grade) are at risk of dying and should be immediately 
 
 ```{block2, type = "rmdremind"}
 \item Oedema is a very rare event.
-
-\item Most common source of errors.
-
+\item It is the most common source of errors.
 \item Be careful of misclassifying oedematous child.
-
 \item Team leader and/or supervisor should confirm oedema.
 ```

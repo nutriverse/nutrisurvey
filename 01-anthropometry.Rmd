@@ -44,6 +44,7 @@ The first independent criteria for *marasmus* or *wasting* is weight-for-height 
 | WHZ < -3SD              | Severe acute malnutrition (SAM)   |
 +-------------------------+-----------------------------------+
 
+&nbsp;
 
 2. Mid-upper arm circumference
 
