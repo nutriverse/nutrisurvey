@@ -53,7 +53,7 @@ If there is nutritional oedema present on the lower legs, perform the same test 
 &nbsp;
 
 ```{block2, type = "rmdnote"}
-Children with oedema (any grade) are at risk of dying and should be immediately referred to a health care facility (ideally a facility that manages severe acute undernutrition).
+Children with oedema (any grade) are at a high risk of dying and should be immediately referred to a health care facility (ideally a facility that manages severe acute undernutrition).
 ```
 
 &nbsp;
