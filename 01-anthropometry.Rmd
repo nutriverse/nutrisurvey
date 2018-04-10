@@ -88,6 +88,12 @@ Download the reference tables for girls 24-59 months [here]("pdf/girls_24_60.pdf
 knitr::include_graphics(c("pdf/boys_0_24.pdf", "pdf/boys_24_60.pdf", "pdf/girls_0_24.pdf", "pdf/girls_24_60.pdf"))
 ```
 
+\newpage
+
+```{block2, type = "rmdexercise"}
+**Using the weight-for-height/length reference tables**
+```
+
 ### Chronic undernutrition
 Childhood **chronic undernutrition** is a condition related to a child's exposure to inadequate nutrition over a long period of time leading to failure of linear growth. Stunted growth reflects a process of failure to reach linear growth potential as a result of suboptimal health and/or nutritional conditions.
 
