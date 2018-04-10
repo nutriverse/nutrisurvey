@@ -114,6 +114,16 @@
   {\end{includegraphics}
   \end{tcolorbox}}
   
+\newenvironment{rmdexercise}
+  {\begin{tcolorbox}[width=\textwidth, 
+                     colback = {white}, 
+                     title = {\textbf{Exercise}}, 
+                     colbacktitle = lightgray,
+                     coltitle = black]
+  \begin{includegraphics}[scale = 1]{exercise.png}}
+  {\end{includegraphics}
+  \end{tcolorbox}}
+  
 \newenvironment{rmdinfo}
   {\begin{tcolorbox}[width=\textwidth, 
                      colback = {white}, 
@@ -478,6 +488,12 @@ Download the reference tables for girls 24-59 months
 
 \caption{Reference tables for girls 24-59 months}\label{fig:anthro14}
 \end{figure}
+
+\newpage
+
+\BeginKnitrBlock{rmdexercise}
+\textbf{Using the weight-for-height/length reference tables}
+\EndKnitrBlock{rmdexercise}
 
 \hypertarget{chronic-undernutrition}{%
 \subsection{Chronic undernutrition}\label{chronic-undernutrition}}

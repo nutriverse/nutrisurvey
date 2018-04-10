@@ -44,6 +44,22 @@ pre code {
     top:0px;
     font-size: 45px;
 }
+.rmdexercise {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #add8e6;
+  background: rgba(204,229,255,0.6);
+  border-radius: 15px;
+  position:relative;
+}
+.rmdexercise:before {
+    content: "\f15c";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+}
 .rmdinfo {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
