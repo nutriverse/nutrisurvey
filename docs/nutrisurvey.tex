@@ -89,6 +89,7 @@
 \usepackage{booktabs}
 \usepackage{color}
 \usepackage{tcolorbox}
+\usepackage{float}
 \graphicspath{ {images/} }
 
 \newenvironment{rmdremind}
@@ -316,8 +317,6 @@ index used for \emph{wasting} is weight-for-height z-scores (WHZ) and
 classification of level of wasting is done based on the following WHZ
 cut-offs:
 
-~
-
 \begin{longtable}[]{@{}ll@{}}
 \toprule
 \begin{minipage}[b]{0.34\columnwidth}\raggedright
@@ -345,8 +344,6 @@ Severe acute malnutrition (SAM)\strut
 \bottomrule
 \end{longtable}
 
-~
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{1}
@@ -364,8 +361,6 @@ anthropometric indicator. Unlike weight-for-height, \emph{MUAC} is used
 as an anthropometric index without need for standardisation. The
 \emph{MUAC} cut-offs used to classify a child as being \emph{marasmic}
 or \emph{wasted} are:
-
-~
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -393,8 +388,6 @@ Severe acute malnutrition (SAM)\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
-
-~
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -430,53 +423,61 @@ into z-scores which in turn are used to check against the stated
 cutoffs. In order to facilitate this conversion to z-scores particularly
 on-the-go in a field survey setting, the WHO provides reference tables
 that can be used to look up a child's height/length and weight in the
-appropriate reference table specific to the child's sex and then be able
-to determine the child's z-score. The reference tables are shown (and
-can be downloaded) below.
+appropriate reference table specific to the child's sex and age and then
+be able to determine the child's z-score. The reference tables are shown
+(and can be downloaded) below.
 
-\begin{figure}
+\BeginKnitrBlock{rmddownload}
+Download the reference tables for boys 0-23 months
+\href{\%22pdf/boys_0_24.pdf\%22}{here}.
+\EndKnitrBlock{rmddownload}
 
-{\centering \includegraphics[width=0.5\linewidth]{pdf/boys_0_24} 
+\BeginKnitrBlock{rmddownload}
+Download the reference tables for girls 0-23 months
+\href{\%22pdf/girls_0_24.pdf\%22}{here}.
+\EndKnitrBlock{rmddownload}
+
+\BeginKnitrBlock{rmddownload}
+Download the reference tables for boys 24-59 months
+\href{\%22pdf/boys_24_60.pdf\%22}{here}.
+\EndKnitrBlock{rmddownload}
+
+\BeginKnitrBlock{rmddownload}
+Download the reference tables for girls 24-59 months
+\href{\%22pdf/girls_24_60.pdf\%22}{here}.
+\EndKnitrBlock{rmddownload}
+
+\newpage
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\linewidth]{pdf/boys_0_24} 
 
 }
 
 \caption{Reference tables for boys 0-23 months}\label{fig:anthro11}
-\end{figure}\begin{figure}
+\end{figure}\begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\linewidth]{pdf/boys_24_60} 
+{\centering \includegraphics[width=1\linewidth]{pdf/boys_24_60} 
 
 }
 
 \caption{Reference tables for boys 24-59 months}\label{fig:anthro12}
-\end{figure}\begin{figure}
+\end{figure}\begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\linewidth]{pdf/girls_0_24} 
+{\centering \includegraphics[width=1\linewidth]{pdf/girls_0_24} 
 
 }
 
 \caption{Reference tables for girls 0-23 months}\label{fig:anthro13}
-\end{figure}\begin{figure}
+\end{figure}\begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\linewidth]{pdf/girls_24_60} 
+{\centering \includegraphics[width=1\linewidth]{pdf/girls_24_60} 
 
 }
 
 \caption{Reference tables for girls 24-59 months}\label{fig:anthro14}
 \end{figure}
-
-\BeginKnitrBlock{rmddownload}
-Download the Reference tables for boys 0-23 months
-\href{\%22pdf/boys_0_24.pdf\%22}{here}.
-
-Download the Reference tables for girls 0-23 months
-\href{\%22pdf/girls_0_24.pdf\%22}{here}.
-
-Download the Reference tables for boys 24-59 months
-\href{\%22pdf/boys_24_60.pdf\%22}{here}.
-
-Download the Reference tables for girls 24-59 months
-\href{\%22pdf/girls_24_60.pdf\%22}{here}.
-\EndKnitrBlock{rmddownload}
 
 \hypertarget{chronic-undernutrition}{%
 \subsection{Chronic undernutrition}\label{chronic-undernutrition}}
@@ -518,8 +519,6 @@ each child whose height has been measured and is expressed in terms of
 classification of level of stunting/stuntedness is done based on the
 following WHZ cut-offs:
 
-~
-
 \begin{longtable}[]{@{}ll@{}}
 \toprule
 \begin{minipage}[b]{0.34\columnwidth}\raggedright
@@ -546,8 +545,6 @@ Severe stunting/stuntedness\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
-
-~
 
 \hypertarget{performing-anthropometric-measurements}{%
 \section{Performing anthropometric
