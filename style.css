@@ -48,8 +48,10 @@ pre code {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   background: #add8e6;
-  background: rgba(204,229,255,0.6);
+  background: #ffffff;
+  border: 5px solid;
   border-radius: 15px;
+  border-color: #add8e6;
   position:relative;
 }
 .rmdexercise:before {
