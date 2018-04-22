@@ -10,7 +10,7 @@ link-citations: TRUE
 links-as-notes: FALSE
 colorlinks: TRUE
 fontsize: 12pt
-url: http\://validmeasures.org/nutrisurvey/
+url: https\://nutrisurvey.validmeasures.org
 github-repo: validmeasures/nutrisurvey
 cover-image: images/nutrisurvey.png
 description: "A guide to nutrition and food security surveys"
