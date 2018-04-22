@@ -23,10 +23,14 @@
 }{}
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 \hypersetup{unicode=true,
             pdftitle={A Guide to Implementing Nutrition and Food Security Surveys},
             pdfauthor={Valid International},
-            pdfborder={0 0 0},
+            colorlinks=true,
+            linkcolor=Maroon,
+            citecolor=Blue,
+            urlcolor=Blue,
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
@@ -76,15 +80,16 @@
 }
 
 \setlength{\droptitle}{-2em}
+
   \title{A Guide to Implementing Nutrition and Food Security Surveys}
-  \pretitle{\vspace{\droptitle}\centering\huge}
+    \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-  \author{Valid International}
-  \preauthor{\centering\large\emph}
+    \author{Valid International}
+    \preauthor{\centering\large\emph}
   \postauthor{\par}
-  \predate{\centering\large\emph}
+      \predate{\centering\large\emph}
   \postdate{\par}
-  \date{05/03/2018}
+    \date{05/03/2018}
 
 \usepackage{booktabs}
 \usepackage{color}
@@ -173,9 +178,16 @@
 \maketitle
 
 {
+\hypersetup{linkcolor=black}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\hypertarget{welcome-to-nutrisurvey}{%
+\chapter*{Welcome to Nutrisurvey}\label{welcome-to-nutrisurvey}}
+\addcontentsline{toc}{chapter}{Welcome to Nutrisurvey}
+
+\includegraphics{images/nutrisurvey.png}
+
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
