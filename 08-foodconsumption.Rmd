@@ -41,7 +41,7 @@ Following is a model questionnaire that can be used for collecting data on **FCS
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
 | 6   | Fish (eaten as a main food)            |                    |                    |                    |
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
-| 7   | Fish powder (used for flavor only)     |                    |                    |                    |
+| 7   | Fish powder (used for flavour only)     |                    |                    |                    |
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
 | 8   | Red meat (sheep/goat/beef)             |                    |                    |                    |  
 +-----+----------------------------------------+--------------------+--------------------+--------------------+
@@ -94,13 +94,13 @@ The **FCS** or the frequency weighted diet diversity score is a score calculated
 | 5   | Beef, goat, poultry, pork, eggs and    | Meat and fish      | 4                  |
 |     | fish                                   |                    |                    |
 +-----+----------------------------------------+--------------------+--------------------+
-| 6   | Milk yogurt and other diary            | Milk               | 4                  |
+| 6   | Milk yoghurt and other diary           | Milk               | 4                  |
 +-----+----------------------------------------+--------------------+--------------------+
 | 7   | Sugar and sugar products, honey        | Sugar              | 0.5                |
 +-----+----------------------------------------+--------------------+--------------------+
 | 8   | Oils, fats and butter                  | Oil                | 0.5                |
 +-----+----------------------------------------+--------------------+--------------------+
-| 9   | Spices, tea, coffee, salt, fishpower,  | Condiments         | 0                  |
+| 9   | Spices, tea, coffee, salt, fishpowder, | Condiments         | 0                  |
 |     | small amounts of milk for tea.         |                    |                    |
 +-----+----------------------------------------+--------------------+--------------------+
 

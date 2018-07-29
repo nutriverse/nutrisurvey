@@ -1,13 +1,13 @@
 # Household Food Insecurity Access Scale {#hfias}
 
 ## Introduction
-Houesehold Food Insecurity Access Scale (HFIAS) is one of the experience-based food insecurity scales. Experience-based indicators are constructed from a short questionnaire that captures households’ behavioral and psychological manifestations of insecure food access, such as having to reduce the number of meals consumed or cut back on the quality of the food due to a lack of resources. HFIAS was developed in 2006 by the USAID-funded Food and Nutrition Technical Assistance II project (FANTA) in collaboration with Tufts and Cornell Universities, among other partners.
+Household Food Insecurity Access Scale (HFIAS) is one of the experience-based food insecurity scales. Experience-based indicators are constructed from a short questionnaire that captures households’ behavioural and psychological manifestations of insecure food access, such as having to reduce the number of meals consumed or cut back on the quality of the food due to a lack of resources. HFIAS was developed in 2006 by the USAID-funded Food and Nutrition Technical Assistance II project (FANTA) in collaboration with Tufts and Cornell Universities, among other partners.
 
 ## HFIAS questionnaire
 
 The HFIAS uses a questionnaire of 9 items which are called **occurence questions** (i.e., whether condition stated in the question has happened or not) based on a 30-day recall. If condition has happened, a further question is then asked which is called a **frequency-of-occurence question**. The possible responses for the **frequency-of-occurence** are categorical - *rarely* (once or twice in the past four weeks); *sometimes* (three to ten times in the past four weeks); and *often* (more than ten times in the past four weeks).
 
-The generic occurence questions are as follows:
+The generic occurrence questions are as follows:
 
 +-----+-----------------------------------------------------+------------------+
 | Q1  | In the past four weeks, did you worry that your     | 0 = No; 1 = Yes  |
@@ -31,7 +31,7 @@ The generic occurence questions are as follows:
 |     |                                                     | 3 = Often        |
 +-----+-----------------------------------------------------+------------------+
 | Q3  | In the past four weeks, did you or any household    | 0 = No; 1 = Yes  |
-|     | member have to eat a limitedvariety of foods due to |                  |
+|     | member have to eat a limited variety of foods due to|                  |
 |     | a lack of resources?                                |                  |
 +-----+-----------------------------------------------------+------------------+
 | Q3a | How often did this happen?                          | 1 = Rarely       |
@@ -169,11 +169,11 @@ $$ \frac{\text{Number of households with response = 1 to Q6}}{\text{Total number
 
 $$ \frac{\text{Number of households with response = 3 to Q6a}}{\text{Total number of households responding to Q6}} ~ \times ~ 100 $$
 
-7. Percent of households in which there was ever no food to eat of any kind beause of lack of resources to get food
+7. Percent of households in which there was ever no food to eat of any kind because of lack of resources to get food
 
 $$ \frac{\text{Number of households with response = 1 to Q7}}{\text{Total number of households responding to Q7}} ~ \times ~ 100 $$
 
-7a. Percent of households in which there was **often** ever no food to eat of any kind beause of lack of resources to get food
+7a. Percent of households in which there was **often** ever no food to eat of any kind because of lack of resources to get food
 
 $$ \frac{\text{Number of households with response = 3 to Q7a}}{\text{Total number of households responding to Q7}} ~ \times ~ 100 $$
 
@@ -195,7 +195,7 @@ $$ \frac{\text{Number of households with response = 3 to Q9a}}{\text{Total numbe
 
 ### Household Food Insecurity Access-related Domains
 
-The occurence questions can be grouped into 3 domains to which they relate to with regard to food insecurity that have been found to be common across cultures. These domains are:
+The concurrence questions can be grouped into 3 domains to which they relate to with regard to food insecurity that have been found to be common across cultures. These domains are:
 
 * Anxiety and uncertainty about the household food supply
 
@@ -241,7 +241,7 @@ Because the average HFIAS score is a continuous variable, it is more sensitive t
 
 The HFIAP indicator categorizes households into four levels of household food insecurity (access): **food secure**, and **mildly**, **moderately** and **severely** food insecure. Households are categorized as increasingly food insecure as they respond affirmatively to more severe conditions and/or experience those conditions more frequently.
 
-Following are the setps in calculating the HFIAP indicator.
+Following are the steps in calculating the HFIAP indicator.
 
 1. The data analyst should have coded **frequency-of-occurrence** as 0 for all cases where the answer to the corresponding occurrence question was **“no”** (i.e., if **Q1=0** then **Q1a=0**, if **Q2=0** then **Q2a=0**, etc.)
 

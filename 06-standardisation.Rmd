@@ -1,6 +1,6 @@
 # Anthropometric measurement standardisation test {#standard}
 
-The survey personnel should go through theoretical discussions and demonstrations on how to perform the anthropometric measurements. This should then be followed by practical demonstration of the measurement techniques, measurement readings and recording ideally with a large numbe of children particularly if there is a large number of survey personnel. Once all personnel have had the opportunity to adequately practice their measurement and recording techniques, a standardisation test or exercise must be carried out. Chapter \@ref(standard) provides detailed instructions on how to carry out an anthropometric measurement standardisation test as part of a training process in preparation for a nutrition survey.
+The survey personnel should go through theoretical discussions and demonstrations on how to perform the anthropometric measurements. This should then be followed by practical demonstration of the measurement techniques, measurement readings and recording ideally with a large number of children particularly if there is a large number of survey personnel. Once all personnel have had the opportunity to adequately practice their measurement and recording techniques, a standardisation test or exercise must be carried out. Chapter \@ref(standard) provides detailed instructions on how to carry out an anthropometric measurement standardisation test as part of a training process in preparation for a nutrition survey.
 
 ## Objectives
 
@@ -18,7 +18,7 @@ The general process of the standardisation test is for each survey personnel to 
 
 ### Test parameters
 
-The following test parameters need to be followed when conducting an anthopometric standardisation test:
+The following test parameters need to be followed when conducting an anthropometric standardisation test:
 
 1. The same type of equipment must be used both during the standardisation test and the survey
 
@@ -62,14 +62,14 @@ For a survey team of about 20 survey personnel, the test can be carried out in 2
 
 It would be possible to have a different set of 10 children for the afternoon session. However, the results of the first half who took the test in the morning cannot be combined with the results of the second half who took the test in the afternoon.
 
-For larger scale surveys with survey personnel more than 20, more days will be required to conduct the test to appropriately and to correct specifiations.
+For larger scale surveys with survey personnel more than 20, more days will be required to conduct the test to appropriately and to correct specifications.
 
 
 ### Steps in carrying out the standardisation test
 
 1. The supervisor carefully performs the measurements on each child without allowing the teams to see the values. The supervisor records his/her measurements on the standardisation test form for the first round of measurements.
 
-<p style="text-align: center;">Standardisation Test Form - Measurement Round 1</p>
+<p style="text-align: centre;">Standardisation Test Form - Measurement Round 1</p>
                   
  Enumerator ID: _____          &nbsp; &nbsp; &nbsp;     Enumerator Name: ___________________         
 

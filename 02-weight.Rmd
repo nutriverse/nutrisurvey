@@ -18,7 +18,7 @@ knitr::include_graphics("images/springScale.jpg")
 knitr::include_graphics("images/hangingScale.png")
 ```
 
-*Balance beam scales* are commonly used in health centers, as they need to be positioned on a flat surface for accurate measurement and are not easily transported.
+*Balance beam scales* are commonly used in health centres, as they need to be positioned on a flat surface for accurate measurement and are not easily transported.
 
 ```{r weight3, fig.cap = "Balance beam scales", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/balanceBeam.jpg")
@@ -99,7 +99,7 @@ knitr::include_graphics("images/seca874start.png")
 knitr::include_graphics("images/seca890start.png")
 ```
 
-When the **SECA 890** is switched on, you will first notice the display showing `188.8`. Wait for the display to turn `0.0` before putting any weight onto the scale. The **assistant** on the other hand will be holding onto the paper questionniare or the mobile device. The **assistant** will be in charge of recording the weight measurement.
+When the **SECA 890** is switched on, you will first notice the display showing `188.8`. Wait for the display to turn `0.0` before putting any weight onto the scale. The **assistant** on the other hand will be holding onto the paper questionnaire or the mobile device. The **assistant** will be in charge of recording the weight measurement.
 
 ```{r weight8, fig.cap = "SECA 890 ready", echo = FALSE, fig.align = "center", fig.retina = 1}
 knitr::include_graphics("images/seca890zero.png")

@@ -38,10 +38,10 @@ The following is a model questionnaire used for eliciting dietary diversity info
 | A   | Food made from grains | Porridge, bread, rice, pasta/noodles or other foods made from grains | Yes = 1       |  
 |     |                       |                                                                      |  No = 2       |  
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
-| B   | White roots and tubers| White potatoes, white yams, manioc/cassava/yucca, cocoyam, taro or   | Yes = 1       |  
-|     |                       | any other foods made from white- eshed roots or tubers, or plantains |  No = 2       |
+| B   | White roots and tubers| White potatoes, white yams, manioc/cassava/yucca, coco yam, taro or  | Yes = 1       |  
+|     |                       | any other foods made from white-fleshed roots or tubers, or plantains|  No = 2       |
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
-| C   | Pulses (beans, peas   | Mature beans or peas (fresh or dried seed), len ls or bean/pea       | Yes = 1       |  
+| C   | Pulses (beans, peas   | Mature beans or peas (fresh or dried seed), lentils or bean/pea      | Yes = 1       |  
 |     | and lentils)          | products, including hummus, tofu and tempeh                          |  No = 2       |
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
 | D   | Nuts and seeds        | Any tree nut, groundnut/peanut or certain seeds, or nut/seed         | Yes = 1       |  
@@ -100,7 +100,7 @@ The following is a model questionnaire used for eliciting dietary diversity info
 | S   | Sweets                | Sugary foods, such as chocolates, candies, cookies/sweet biscuits    | Yes = 1       | 
 |     |                       | and cakes, sweet pastries or ice cream                               |  No = 2       |
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
-| T   | Sugar-sweetened       | Sweetened fruit juices and “juice drinks”, softdrinks/fizzy drinks,  | Yes = 1       |
+| T   | Sugar-sweetened       | Sweetened fruit juices and “juice drinks”, soft drinks/fizzy drinks, | Yes = 1       |
 |     | beverages             | chocolate drinks, malt drinks, yoghurt drinks or sweet tea or coffee |  No = 2       |
 |     |                       | with sugar                                                           |               |
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
@@ -111,8 +111,8 @@ The following is a model questionnaire used for eliciting dietary diversity info
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
 |     | **Food categories**   | **Description and/or examples (to be adapted to local context)**     | **Consumed?** |
 +:===:+=======================+======================================================================+===============+
-| U   | Condiments and        | Ingredients used in small quan  es for  avour, such as chilies,      | Yes = 1       | 
-|     | seasonings            | spices, herbs,  sh powder, tomato paste,  avour cubes or seeds       |  No = 2       |
+| U   | Condiments and        | Ingredients used in small quantities for flavour, such as chilies,   | Yes = 1       | 
+|     | seasonings            | spices, herbs, powder, tomato paste, flavour cubes or seeds          |  No = 2       |
 +-----+-----------------------+----------------------------------------------------------------------+---------------+
 | V   | Other beverages and   | Tea or co ee if not sweetened, clear broth, alcohol                  | Yes = 1       |
 |     | foods (optionally,    | Pickles, olives and similar                                          |  No = 2       |
@@ -225,7 +225,7 @@ The following is a model questionnaire used for eliciting dietary diversity info
 
 * Includes legumes when the fresh/green pod is consumed (as in fresh peas, snow peas, snap peas or green beans)
 * Includes stems, fruits and  owers of plants when generally consumed in savoury dishes and considered as vegetables in culinary systems such as cucumber, tomato and okra
-* Excludes white potatoes, white yams, cassava and cocoyam
+* Excludes white potatoes, white yams, cassava and coco yam
 
 **10. Other fruits**
 
@@ -240,19 +240,19 @@ MDD component of the IYCF indicators is a dichotomous indicator of whether or no
 
 The indicator is calculated as follows:
 
-$$ \text{MDD} = \frac{\text{Children 6–23 months of age who received foods from ≥ 4 food groups during the previous day}}{\text{Children 6–23 months of age}} $$
+$$ \text{MDD} = \frac{\text{Children 6–23 months of age who received foods from} \geq \text{ 4 food groups during the previous day}}{\text{Children 6–23 months of age}} $$
 
 The 7 foods groups used for tabulation of this indicator are:
 
 1. Grains, roots and tubers
 2. Legumes and nuts
-3. Dairy products (milk, yogurt, cheese)
+3. Dairy products (milk, yoghurt, cheese)
 4. Fresh foods (meat, fish, poultry and liver/organ meats)
 5. Eggs
 6. Vitamin-A rich fruits and vegetables
 7. Other fruits and vegetables
 
-Consumption of any amount of food from each food group is suf cient to “count”, i.e., there is no minimum quantity, except if an item is only used as a condiment.
+Consumption of any amount of food from each food group is sufficient to “count”, i.e., there is no minimum quantity, except if an item is only used as a condiment.
 
 ### MDD questionnaire
 
@@ -286,14 +286,14 @@ Following is a model questionnaire used for MDD component of IYCF
 +-----+-------------------------------------------------------------------------+------------------+
 | K   | Any foods made from beans, peas, lentils, nuts, or seeds                | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
-| L   | Cheese, yogurt, or other milk products                                  | Yes = 1   No = 2 |
+| L   | Cheese, yoghurt, or other milk products                                  | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
 | M   | Any oil, fats, or butter, or foods made with any of these               | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
 | N   | Any sugary foods such as chocolates, sweets, candies, pastries, cakes,  | Yes = 1   No = 2 |
 |     | or biscuits                                                             | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
-| O   | Condiments for flavor, such as chilies, spices, herbs, or fish powder   | Yes = 1   No = 2 |
+| O   | Condiments for flavour, such as chillies, spices, herbs, or fish powder | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
 | P   | Grubs, snails, or insects                                               | Yes = 1   No = 2 |
 +-----+-------------------------------------------------------------------------+------------------+
