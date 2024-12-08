@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Childhood undernutrition and anthropometry – A Guide to Implementing Nutrition and Food Security Surveys</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./02-weight.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b1a009cd478e574395e6b462a577de8f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3ab7460cb699180021bfd64399b1ed5a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="floating slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./anthropometry.html">Child Anthropometry</a></li><li class="breadcrumb-item"><a href="./anthropometry.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Childhood undernutrition and anthropometry</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">A Guide to Implementing Nutrition and Food Security Surveys</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/nutriverse/nutrisurvey/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./A-Guide-to-Implementing-Nutrition-and-Food-Security-Surveys.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./A-Guide-to-Implementing-Nutrition-and-Food-Security-Surveys.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Child Anthropometry</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anthropometry.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Childhood undernutrition and anthropometry</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-weight.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measuring weight</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-height.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Measuring height</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-muac.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measuring mid-upper arm circumference (MUAC)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-oedema.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking for oedema</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-standardisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Dietary Intake</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-dietdiversity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Measuring dietary diversity</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-foodconsumption.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Food security</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-hfias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-forms-child-undernutrition" id="toc-sec-forms-child-undernutrition" class="nav-link active" data-scroll-target="#sec-forms-child-undernutrition"><span class="header-section-number">1.1</span> Forms of childhood undernutrition</a>
+  <ul class="collapse">
+  <li><a href="#sec-child-acute-undernutrition" id="toc-sec-child-acute-undernutrition" class="nav-link" data-scroll-target="#sec-child-acute-undernutrition"><span class="header-section-number">1.1.1</span> Acute undernutrition</a></li>
+  <li><a href="#sec-chronic-undernutrition" id="toc-sec-chronic-undernutrition" class="nav-link" data-scroll-target="#sec-chronic-undernutrition"><span class="header-section-number">1.1.2</span> Chronic undernutrition</a></li>
+  </ul></li>
+  <li><a href="#sec-anthro-measurements" id="toc-sec-anthro-measurements" class="nav-link" data-scroll-target="#sec-anthro-measurements"><span class="header-section-number">1.2</span> Performing anthropometric measurements</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/01-anthropometry.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./anthropometry.html">Child Anthropometry</a></li><li class="breadcrumb-item"><a href="./anthropometry.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Childhood undernutrition and anthropometry</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-child-anthro" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Childhood undernutrition and anthropometry</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Childhood undernutrition is an important global public health issue contributing to nearly half of all deaths in children under 5 and is widespread in Asia and Africa. This chapter discusses the various forms of childhood undernutrition, describes the indices used to diagnose them and the anthropometric measurements performed that will provide data to calculate the various indices.</p>
+<section id="sec-forms-child-undernutrition" class="level2 page-columns page-full" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="sec-forms-child-undernutrition"><span class="header-section-number">1.1</span> Forms of childhood undernutrition</h2>
+<p>Childhood undernutrition manifests in various forms. It is important to note the use of the term undernutrition rather than malnutrition as this guide will not touch upon overweight and obesity. In this guide, the focus will be on two forms of undernutrition: <em>acute undernutrition</em>; and, <em>chronic undernutrition</em>. Childhood undernutrition manifested as micronutrient deficiencies will not be discussed.</p>
+<section id="sec-child-acute-undernutrition" class="level3 page-columns page-full" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="sec-child-acute-undernutrition"><span class="header-section-number">1.1.1</span> Acute undernutrition</h3>
+<p>Childhood <strong>acute undernutrition</strong> is a condition related to a child’s acute inadequate nutrition leading to rapid weight loss or failure to gain weight normally. Situations such as acute shortage of food and/or acute episodes of childhood illnesses such as diarrhoea, acute respiratory infections and/or malaria can bring about this rapid weight loss or weight gain failure in children.</p>
+<section id="sec-child-acute-signs-symptoms" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="sec-child-acute-signs-symptoms">Physical signs and symptoms</h4>
+<p>Acute undernutrition in a child can manifest in two ways.</p>
+<section id="sec-child-marasmus" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="sec-child-marasmus">Marasmus</h5>
+<p>This condition is also called <em>wasting</em> given that a child suffering from it presents as <em>wasted</em> with an appearance of <em>“skin and bones”</em> because of <em>excessive thinness</em> that is due to rapid loss of muscle and fatty tissue. Other physical features include the child’s face looking like an old man’s (<em>old man facies</em> due to loss of facial subcutaneous fat), child’s rib cage is easily visible and skin folds on buttocks and thighs appearing like <em>“baggy pants”</em>.</p>
+</section>
+<section id="sec-child-kwashiorkor" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="sec-child-kwashiorkor">Kwashiorkor</h5>
+<p>Some children with acute undernutrition develop <em>nutritional oedema</em>. Oedema is an accumulation of fluid in the tissue, especially the feet and legs and nutritional oedema is specifically characterised as being <em>bilateral and pitting</em>. The child with <em>kwashiorkor</em> is <em>withdrawn</em>, <em>irritable</em>, <em>obviously ill</em> and <em>will not eat</em>. The hair is thin, sparse and sometimes discoloured. The skin has symmetrical discoloured patches where the skin later cracks and peels off.</p>
+<div id="fig-kwashiorkor" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-kwashiorkor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-kwashiorkor" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-child-kwashiorkor-skin-hair" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-child-kwashiorkor-skin-hair-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/oedema01.jpg" class="img-fluid figure-img" data-ref-parent="fig-kwashiorkor">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-child-kwashiorkor-skin-hair-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Child with bilateral oedema, skin, and hair changes
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-kwashiorkor" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-child-kwashiorkor-oedema" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-child-kwashiorkor-oedema-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/oedema02.jpg" class="img-fluid figure-img" data-ref-parent="fig-kwashiorkor">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-child-kwashiorkor-oedema-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Bilateral pitting oedema
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kwashiorkor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Children with kwashiorkor
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="sec-child-anthro-indices" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="sec-child-anthro-indices">Anthropometric indices</h4>
+<p>The physical signs and symptoms of acute undernutrition described above are considered pathognomonic of the condition i.e., if these signs and symptoms are found in a child, it is very likely that the child has acute undernutrition. However, other than physical signs, there are anthropometric indices used to diagnose acute undernutrition in children.</p>
+<section id="sec-child-anthro-wfh" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="sec-child-anthro-wfh">Weight-for-height/weight-for-length</h5>
+<p>The first independent criteria for <em>marasmus</em> or <em>wasting</em> is weight-for-height (WFH)/weight-for-length (WFL). Given <em>child A</em>, this child’s weight is assessed against the mean weight of a standard group of children in good health with the same height or length as <em>child A</em> (length is measured when the child is &lt; 85 cms in height or &lt; 24 months old). <em>Child A</em> is expected to have a weight close to the mean weight of the standard group of healthy children if <em>child A</em> is also healthy and is not undernourished. However, if <em>child A</em>’s weight deviates significantly farther from the mean weight of the standard group of healthy children, <em>child A</em> is considered to have low weight for its height and therefore considered <em>marasmic</em> or <em>wasted</em>. This deviation from the mean, also called <em>standard deviation (SD)</em> in statistics, is calculated for each child whose weight and height have been measured and is expressed in terms of <em>z-scores</em>. Therefore, the anthropometric index used for <em>wasting</em> is weight-for-height z-scores (WHZ) and classification of level of wasting is done based on the following WHZ cut-offs:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 50%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>WHZ</strong></th>
+<th><strong>Classification</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>WHZ &lt; -2SD</td>
+<td colspan="2">Global Acute malnutrition (GAM)</td>
+</tr>
+<tr class="even">
+<td>-3SD <span class="math inline">\(\geq\)</span> WHZ &lt; -2SD</td>
+<td>Moderate acute malnutrition (MAM)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>WHZ &lt; -3SD</td>
+<td>Severe acute malnutrition (SAM)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="sec-child-anthro-muac" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="sec-child-anthro-muac">Mid-upper arm circumference</h5>
+<p>The other independent criteria for <em>marasmus</em> or <em>wasting</em> is the <em>mid-upper arm circumference</em> or <em>MUAC</em>. <em>MUAC</em> is a measure of muscle mass and therefore detects loss of muscle mass due to wasting. <em>MUAC</em> is a good predictor of mortality and in many studies, <em>MUAC</em> predicted death in children better than any other anthropometric indicator. Unlike weight-for-height, <em>MUAC</em> is used as an anthropometric index without need for standardisation. The <em>MUAC</em> cut-offs used to classify a child as being <em>marasmic</em> or <em>wasted</em> are:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 50%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>MUAC (mm)</strong></th>
+<th><strong>Classification</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MUAC &lt; 125</td>
+<td colspan="2">Global Acute malnutrition (GAM)</td>
+</tr>
+<tr class="even">
+<td>115 <span class="math inline">\(\geq\)</span> MUAC &lt; 125</td>
+<td>Moderate acute malnutrition (MAM)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MUAC &lt; 115</td>
+<td>Severe acute malnutrition (SAM)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="sec-child-anthro-oedema" class="level5 unnumbered">
+<h5 class="unnumbered anchored" data-anchor-id="sec-child-anthro-oedema">Oedema test</h5>
+<p>The final index for acute undernutrition is <em>oedema testing</em> for <em>kwashiorkor</em> cases. This test checks whether <em>oedema</em> is present and whether it is <em>bilateral</em> and <em>pitting</em>. Any sign of bilateral pitting oedema, regardless of WHZ or MUAC classification, is considered <em>severe acute malnutrition</em>.</p>
+</section>
+</section>
+<section id="sec-child-anthro-referral" class="level4 unnumbered page-columns page-full">
+<h4 class="unnumbered anchored" data-anchor-id="sec-child-anthro-referral">Referral for cases with acute undernutrition</h4>
+<p>Children with acute undernutrition are at higher risk of mortality than children who are not. Children with moderate acute malnutrition are 3 times more likely to die while children with severe acute undernutrition are 5 times more likely to die than their non-undernourished counterparts. It is therefore important that when children are identified as having acute undernutrition based on the anthropometric indices described above, they are referred accordingly for treatment. For MUAC and oedema, the diagnosis of acute undernutrition is clear and straightforward and those who measure or check for them would be able to immediately determine child’s nutritional status and refer accordingly. With the weight-for-height index, the process is less straightforward because the weight and height measurements will have to be converted into z-scores which in turn are used to check against the stated cut-offs. In order to facilitate this conversion to z-scores particularly on-the-go in a field survey setting, the WHO provides reference tables that can be used to look up a child’s height/length and weight in the appropriate reference table specific to the child’s sex and age and then be able to determine the child’s z-score. The reference tables are shown below (<a href="#fig-ref-boys-0-23" class="quarto-xref">Figure&nbsp;<span>1.2 (a)</span></a>, <a href="#fig-ref-boys-24-59" class="quarto-xref">Figure&nbsp;<span>1.2 (b)</span></a>, <a href="#fig-ref-girls-0-23" class="quarto-xref">Figure&nbsp;<span>1.2 (c)</span></a>, <a href="#fig-ref-girls-24-59" class="quarto-xref">Figure&nbsp;<span>1.2 (d)</span></a>) and can be downloaded from the links on the right.</p>
+
+<div class="no-row-height column-margin column-container"><div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Download
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Reference tables for boys 0-23 months - <a href="pdf/boys_0_24.pdf">PDF</a></p></li>
+<li><p>Reference tables for boys 24-59 months - <a href="pdf/boys_24_60.pdf">PDF</a></p></li>
+<li><p>Reference tables for girls 0-23 months - <a href="pdf/girls_0_24.pdf">PDF</a></p></li>
+<li><p>Reference tables for girls 24-59 months - <a href="pdf/girls_24_60.pdf">PDF</a></p></li>
+</ul>
+</div>
+</div></div><div id="fig-child-reference-tables" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-child-reference-tables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-child-reference-tables" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-ref-boys-0-23" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-ref-boys-0-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="pdf/boys_0_24.pdf" class="img-fluid" data-ref-parent="fig-child-reference-tables">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-ref-boys-0-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Reference tables for boys 0-23 months
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-child-reference-tables" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-ref-boys-24-59" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-ref-boys-24-59-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="pdf/boys_24_60.pdf" class="img-fluid" data-ref-parent="fig-child-reference-tables">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-ref-boys-24-59-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Reference tables for boys 24-59 months
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-child-reference-tables" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-ref-girls-0-23" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-ref-girls-0-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="pdf/girls_0_24.pdf" class="img-fluid" data-ref-parent="fig-child-reference-tables">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-ref-girls-0-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) Reference tables for girls 0-23 months
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-child-reference-tables" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-ref-girls-24-59" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-ref-girls-24-59-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="pdf/girls_0_24.pdf" class="img-fluid" data-ref-parent="fig-child-reference-tables">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-ref-girls-24-59-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(d) Reference tables for girls 0-23 months
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-child-reference-tables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.2: Reference look-up tables for acute undernutrition
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Case: During the survey, you found a 10 month old girl with a length of 48.0 cms and weight of 3.3 kgs.</strong></p>
+<p>In this example, you will have to use the reference table for girls 0-24 months old.</p>
+<p>Find the length of the child on the reference table. In the left-most column of the reference table you will find the values for the length in centimetres (<a href="#fig-ref-table-length-column" class="quarto-xref">Figure&nbsp;<span>1.3</span></a>). So for this child, you should look for 48.0 cm length in the left-most column (<a href="#fig-ref-table-length-48" class="quarto-xref">Figure&nbsp;<span>1.4</span></a>).</p>
+<div id="fig-ref-table-length-column" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-length-column-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable01.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-length-column-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: Values for length in centimetres
+</figcaption>
+</figure>
+</div>
+<div id="fig-ref-table-length-48" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-length-48-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable01a.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-length-48-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.4: Look for 48.0 cms length
+</figcaption>
+</figure>
+</div>
+<p>Once you have found the girl’s length in the left-most column, you now have to look for the girl’s weight in the body of the table (<a href="#fig-ref-table-weight-body" class="quarto-xref">Figure&nbsp;<span>1.5</span></a>). Specifically, you should look for the girl’s weight along the row corresponding to her length (<a href="#fig-ref-table-weight-row" class="quarto-xref">Figure&nbsp;<span>1.6</span></a>).</p>
+<div id="fig-ref-table-weight-body" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-weight-body-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable03.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-weight-body-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.5: Values for weight in kilograms
+</figcaption>
+</figure>
+</div>
+<div id="fig-ref-table-weight-row" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-weight-row-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable03a.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-weight-row-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.6: Look for weight of girl in row for her length
+</figcaption>
+</figure>
+</div>
+<p>The weight of the child (3.3 kg) is indicated in <a href="#fig-ref-table-weight-33" class="quarto-xref">Figure&nbsp;<span>1.7</span></a>.</p>
+<div id="fig-ref-table-weight-33" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-weight-33-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable03b.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-weight-33-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.7: Weight of child
+</figcaption>
+</figure>
+</div>
+<p>Then, to determine the z-score corresponding to the girl’s height and weight, look up to the the uppermost row (header row) of the table where you will find the z-score values (<a href="#fig-ref-table-zscore-header" class="quarto-xref">Figure&nbsp;<span>1.8</span></a>). Specifically, you should look up to the uppermost row (header row) of the column corresponding to the weight of the child (<a href="#fig-ref-table-zscore-child" class="quarto-xref">Figure&nbsp;<span>1.9</span></a>).</p>
+<div id="fig-ref-table-zscore-header" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-zscore-header-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable02.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-zscore-header-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.8: Header row
+</figcaption>
+</figure>
+</div>
+<div id="fig-ref-table-zscore-child" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ref-table-zscore-child-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/whzRefTable02a.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ref-table-zscore-child-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.9: Header corresponding to weight of child
+</figcaption>
+</figure>
+</div>
+<p>So, in this example, the girl has a z-score of <strong>+1SD</strong>. The girl is not acutely undernourished.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-chronic-undernutrition" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="sec-chronic-undernutrition"><span class="header-section-number">1.1.2</span> Chronic undernutrition</h3>
+<p>Childhood <strong>chronic undernutrition</strong> is a condition related to a child’s exposure to inadequate nutrition over a long period of time leading to failure of linear growth. Stunted growth reflects a process of failure to reach linear growth potential as a result of suboptimal health and/or nutritional conditions.</p>
+<section id="sec-chronic-signs-symptoms" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="sec-chronic-signs-symptoms">Physical signs and symptoms</h4>
+<p>A child suffering from chronic undernutrition is also called <em>stunting/stunted</em>. Such a child is said to be short for its age (see below).</p>
+</section>
+<section id="sec-chronic-anthro-indices" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="sec-chronic-anthro-indices">Anthropometric indices</h4>
+<p>Like with acute undernutrition, an index is used to classify whether a child has chronic malnutrition or not. This index is called height-for-age (HFA) or length-for-age (LFA). Given <em>child B</em>, this child’s length/height is assessed against the mean length/height of a standard group of children in good health with the same age as <em>child B</em>. <em>Child B</em> is expected to have a length/height close to the mean length/height of the standard group of healthy children if <em>child B</em> is also health and well-nourished. However, if <em>child B</em>’s length/height deviates significantly farther from the mean height of the standard group of healthy children, <em>child B</em> is considered to have low height for its age and therefore considered to be <em>stunting</em> or <em>stunted</em>. This deviation from the mean, also called <em>standard deviation (SD)</em> in statistics, is calculated for each child whose height has been measured and is expressed in terms of <em>z-scores</em>. Therefore, the anthropometric index used for <em>stunting/stuntedness</em> is height-for-age z-scores (HAZ) and classification of level of stunting/stuntedness is done based on the following WHZ cut-offs:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>HAZ</strong></th>
+<th><strong>Classification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>HAZ &lt; -2SD</td>
+<td>Global stunting/stuntedness</td>
+</tr>
+<tr class="even">
+<td>-3SD <span class="math inline">\(\geq\)</span> HAZ &lt; -2SD</td>
+<td>Moderate stunting/stuntedness</td>
+</tr>
+<tr class="odd">
+<td>HAZ &lt; -3SD</td>
+<td>Severe stunting/stuntedness</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="sec-anthro-measurements" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="sec-anthro-measurements"><span class="header-section-number">1.2</span> Performing anthropometric measurements</h2>
+<p>As described in this chapter, to be able to assess the anthropometric indices for acute and chronic undernutrition four (4) anthropometric measurements needs to be collected: 1) <em>weight</em>; 2) <em>height</em>; 3) <em>mid-upper arm circumference (MUAC)</em>; and, 4) <em>oedema</em>. In addition to these anthropometric measurements, information on the child’s <em>age (in months)</em> and <em>sex</em> will also be needed to be able to determine the appropriate reference standards to use in calculating the child’s corresponding anthropometric indices. The next chapters provide detailed directions on how to perform the various anthropometric measurements accurately.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./02-weight.html" class="pagination-link" aria-label="Measuring weight">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measuring weight</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/01-anthropometry.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

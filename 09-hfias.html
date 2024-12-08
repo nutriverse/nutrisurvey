@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>9&nbsp; Household Food Insecurity Access Scale – A Guide to Implementing Nutrition and Food Security Surveys</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./08-foodconsumption.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b1a009cd478e574395e6b462a577de8f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3ab7460cb699180021bfd64399b1ed5a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./09-hfias.html">Food security</a></li><li class="breadcrumb-item"><a href="./09-hfias.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">A Guide to Implementing Nutrition and Food Security Surveys</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/nutriverse/nutrisurvey/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./A-Guide-to-Implementing-Nutrition-and-Food-Security-Surveys.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./A-Guide-to-Implementing-Nutrition-and-Food-Security-Surveys.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Child Anthropometry</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anthropometry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Childhood undernutrition and anthropometry</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-weight.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measuring weight</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-height.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Measuring height</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-muac.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Measuring mid-upper arm circumference (MUAC)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-oedema.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking for oedema</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-standardisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Dietary Intake</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-dietdiversity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Measuring dietary diversity</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-foodconsumption.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Food security</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-hfias.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">9.1</span> Introduction</a></li>
+  <li><a href="#hfias-questionnaire" id="toc-hfias-questionnaire" class="nav-link" data-scroll-target="#hfias-questionnaire"><span class="header-section-number">9.2</span> HFIAS questionnaire</a></li>
+  <li><a href="#hfias-indicators" id="toc-hfias-indicators" class="nav-link" data-scroll-target="#hfias-indicators"><span class="header-section-number">9.3</span> HFIAS indicators</a>
+  <ul class="collapse">
+  <li><a href="#household-food-insecurity-access-related-conditions" id="toc-household-food-insecurity-access-related-conditions" class="nav-link" data-scroll-target="#household-food-insecurity-access-related-conditions"><span class="header-section-number">9.3.1</span> Household Food Insecurity Access-related Conditions</a></li>
+  <li><a href="#household-food-insecurity-access-related-domains" id="toc-household-food-insecurity-access-related-domains" class="nav-link" data-scroll-target="#household-food-insecurity-access-related-domains"><span class="header-section-number">9.3.2</span> Household Food Insecurity Access-related Domains</a></li>
+  <li><a href="#household-food-insecurity-access-scale-score" id="toc-household-food-insecurity-access-scale-score" class="nav-link" data-scroll-target="#household-food-insecurity-access-scale-score"><span class="header-section-number">9.3.3</span> Household Food Insecurity Access Scale Score</a></li>
+  <li><a href="#household-food-insecurity-access-prevalence" id="toc-household-food-insecurity-access-prevalence" class="nav-link" data-scroll-target="#household-food-insecurity-access-prevalence"><span class="header-section-number">9.3.4</span> Household Food Insecurity Access Prevalence</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/09-hfias.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./09-hfias.html">Food security</a></li><li class="breadcrumb-item"><a href="./09-hfias.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="hfias" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">9.1</span> Introduction</h2>
+<p>Household Food Insecurity Access Scale (HFIAS) is one of the experience-based food insecurity scales. Experience-based indicators are constructed from a short questionnaire that captures households’ behavioural and psychological manifestations of insecure food access, such as having to reduce the number of meals consumed or cut back on the quality of the food due to a lack of resources. HFIAS was developed in 2006 by the USAID-funded Food and Nutrition Technical Assistance II project (FANTA) in collaboration with Tufts and Cornell Universities, among other partners.</p>
+</section>
+<section id="hfias-questionnaire" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="hfias-questionnaire"><span class="header-section-number">9.2</span> HFIAS questionnaire</h2>
+<p>The HFIAS uses a questionnaire of 9 items which are called <strong>occurence questions</strong> (i.e., whether condition stated in the question has happened or not) based on a 30-day recall. If condition has happened, a further question is then asked which is called a <strong>frequency-of-occurence question</strong>. The possible responses for the <strong>frequency-of-occurence</strong> are categorical - <em>rarely</em> (once or twice in the past four weeks); <em>sometimes</em> (three to ten times in the past four weeks); and <em>often</em> (more than ten times in the past four weeks).</p>
+<p>The generic occurrence questions are as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 67%">
+<col style="width: 23%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Q1</td>
+<td>In the past four weeks, did you worry that your household would not have enough food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q1a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q2</td>
+<td>In the past four weeks, were you or any household member not able to eat the kinds of foods you preferred because of a lack of resources?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q2a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q3</td>
+<td>In the past four weeks, did you or any household member have to eat a limited variety of foods due to a lack of resources?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q3a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q4</td>
+<td>In the past four weeks, did you or any household member have to eat some foods that you really did not want to eat because of a lack of resources to obtain other types of food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q4a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q5</td>
+<td>In the past four weeks, did you or any household member have to eat a smaller meal than you felt you needed because there was not enough food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q5a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q6</td>
+<td>In the past four weeks, did you or any household member have to eat fewer meals in a day because there was not enough food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q6a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q7</td>
+<td>In the past four weeks, was there ever no food to eat of any kind in your household because of lack of resources to get food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q7a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q8</td>
+<td>In the past four weeks, did you or any household member go to sleep at night hungry because there was not enough food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q8a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+<tr class="odd">
+<td>Q9</td>
+<td>In the past four weeks, did you or any household member go a whole day and night without eating anything because there was not enough food?</td>
+<td>0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td>Q9a</td>
+<td>How often did this happen?</td>
+<td><p>1 = Rarely</p>
+<p>2 = Sometimes</p>
+<p>3 = Often</p></td>
+</tr>
+</tbody>
+</table>
+<p>Questions 1 to 9 are the <strong>occurence questions</strong> while questions 1a to 9a are the <strong>frequency-of-occurence questions</strong>.</p>
+</section>
+<section id="hfias-indicators" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="hfias-indicators"><span class="header-section-number">9.3</span> HFIAS indicators</h2>
+<p>Four types of indicators can be calculated to help understand the characteristics of and changes in household food insecurity in the surveyed population. These indicators are:</p>
+<ul>
+<li><p>Household Food Insecurity Access-related <strong>Conditions</strong></p></li>
+<li><p>Household Food Insecurity Access-related <strong>Domains</strong></p></li>
+<li><p>Household Food Insecurity Access Scale <strong>Score</strong></p></li>
+<li><p>Household Food Insecurity Access <strong>Prevalence</strong></p></li>
+</ul>
+<section id="household-food-insecurity-access-related-conditions" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="household-food-insecurity-access-related-conditions"><span class="header-section-number">9.3.1</span> Household Food Insecurity Access-related Conditions</h3>
+<p>This indicator set consists of the responses to the individual <strong>occurence questions</strong> and <strong>frequency of occurence questions</strong>. The indicators in this set provide specific, disaggregated information about the behaviours and perceptions of the surveyed households. The indicators present the percent of households that responded affirmatively to each question, regardless of the frequency of the experience. Thus they measure the percent of households experiencing the condition at any level of severity. Each indicator can be further disaggregated to examine the frequency of experience of the condition across the surveyed households.</p>
+<ol type="1">
+<li>Percent of households that worried about not having enough food in the past four weeks</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q1}}{\text{Total number of households responding to Q1}} ~ \times ~ 100 \]</span></p>
+<p>1a. Percent of households that <strong>often</strong> worried about not having enough food in the past four weeks</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q1a}}{\text{Total number of households responding to Q1}} ~ \times ~ 100 \]</span></p>
+<ol start="2" type="1">
+<li>Percent of households with a household member/s not able to eat the kinds of food preferred because of a lack of resources</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q2}}{\text{Total number of households responding to Q2}} ~ \times ~ 100 \]</span></p>
+<p>2a. Percent of households with a household member/s who <strong>often</strong> are not able to eat the kinds of food preferred because of a lack of resources</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q2a}}{\text{Total number of households responding to Q2}} ~ \times ~ 100 \]</span></p>
+<ol start="3" type="1">
+<li>Percent of households with a household member/s who have to eat a limited variety of foods due to a lack of resources</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q3}}{\text{Total number of households responding to Q3}} ~ \times ~ 100 \]</span></p>
+<p>3a. Percent of households with a household member/s who <strong>often</strong> have to eat limited variety of foods due to a lack of resources</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q3a}}{\text{Total number of households responding to Q3}} ~ \times ~ 100 \]</span></p>
+<ol start="4" type="1">
+<li>Percent of households with a household member/s who have had to eat some foods they really didn’t want to eat due to a lack of resources to obtain other types of food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q4}}{\text{Total number of households responding to Q4}} ~ \times ~ 100 \]</span></p>
+<p>4a. Percent of households with a household member/s who <strong>often</strong> have had to eat some foods they really didn’t want to eat due to a lack of resources to obtain other types of food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q4a}}{\text{Total number of households responding to Q4}} ~ \times ~ 100 \]</span></p>
+<ol start="5" type="1">
+<li>Percent of households with a household member/s who have had to eat a smaller meal than they felt they needed because there was not enough food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q5}}{\text{Total number of households responding to Q5}} ~ \times ~ 100 \]</span></p>
+<p>5a. Percent of households with a household member/s who <strong>often</strong> have had to eat a smaller meal than they felt they needed because there was not enough food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q5a}}{\text{Total number of households responding to Q5}} ~ \times ~ 100 \]</span></p>
+<ol start="6" type="1">
+<li>Percent of households with a household member/s who have had to eat fewer meals in a day because there was not enough food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q6}}{\text{Total number of households responding to Q6}} ~ \times ~ 100 \]</span></p>
+<p>6a. Percent of households with a household member/s who <strong>often</strong> have had to eat fewer meals in a day because there was not enough food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q6a}}{\text{Total number of households responding to Q6}} ~ \times ~ 100 \]</span></p>
+<ol start="7" type="1">
+<li>Percent of households in which there was ever no food to eat of any kind because of lack of resources to get food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q7}}{\text{Total number of households responding to Q7}} ~ \times ~ 100 \]</span></p>
+<p>7a. Percent of households in which there was <strong>often</strong> ever no food to eat of any kind because of lack of resources to get food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q7a}}{\text{Total number of households responding to Q7}} ~ \times ~ 100 \]</span></p>
+<ol start="8" type="1">
+<li>Percent of households with a household member/s who had gone to sleep at night hungry because there was not enough food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q8}}{\text{Total number of households responding to Q8}} ~ \times ~ 100 \]</span></p>
+<p>8a. Percent of households with a household member/s who <strong>often</strong> had gone to sleep at night hungry because there was not enough food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q8a}}{\text{Total number of households responding to Q8}} ~ \times ~ 100 \]</span></p>
+<ol start="9" type="1">
+<li>Percent of households with a household member/s who had gone a whole day and night without eating anything because there was not enough food</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 1 to Q9}}{\text{Total number of households responding to Q9}} ~ \times ~ 100 \]</span></p>
+<p>9a. Percent of households with a household member/s who <strong>often</strong> had gone a whole day and night without eating anything because there was not enough food</p>
+<p><span class="math display">\[ \frac{\text{Number of households with response = 3 to Q9a}}{\text{Total number of households responding to Q9}} ~ \times ~ 100 \]</span></p>
+</section>
+<section id="household-food-insecurity-access-related-domains" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="household-food-insecurity-access-related-domains"><span class="header-section-number">9.3.2</span> Household Food Insecurity Access-related Domains</h3>
+<p>The concurrence questions can be grouped into 3 domains to which they relate to with regard to food insecurity that have been found to be common across cultures. These domains are:</p>
+<ul>
+<li><p>Anxiety and uncertainty about the household food supply</p></li>
+<li><p>Insufficient Quality (includes variety and preferences of the type of food)</p></li>
+<li><p>Insufficient food intake and its physical consequences</p></li>
+</ul>
+<p>This indicator set on <strong>domains</strong> consists of responses to the individual <strong>occurence questions</strong> referring to each of the domains. The indicators in this set provide specific, disaggregated information about the behaviours and perceptions of the surveyed households as they pertain to the domains. The indicators present the percent of households that responded affirmatively to each question within a domain, regardless of the frequency of the experience. Thus they measure the percent of households experiencing the condition within a domain at any level of severity.</p>
+<ol type="1">
+<li>Percent of households with anxiety and uncertainty about the household food supply</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{Number of households with Q1 = 1}}{\text{Total number of households responding to Q1}} ~ \times ~ 100 \]</span></p>
+<ol start="2" type="1">
+<li>Percent of households with insufficient good quality</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{No. of households with Q2 = 1 OR Q3 = 1 OR Q4 = 1}}{\text{Total no. of households responding to Q2 OR Q3 OR Q4}} ~ \times ~ 100 \]</span></p>
+<ol start="3" type="1">
+<li>Percent of households with insufficient food intake</li>
+</ol>
+<p><span class="math display">\[ \frac{\text{No. of households with Q5 = 1 OR Q6 = 1 OR Q7 = 1 OR Q8 = 1 OR Q9 = 1}}{\text{Total no. of households responding to Q5 OR Q6 OR Q7 OR Q8 OR Q9}} ~ \times ~ 100 \]</span></p>
+</section>
+<section id="household-food-insecurity-access-scale-score" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="household-food-insecurity-access-scale-score"><span class="header-section-number">9.3.3</span> Household Food Insecurity Access Scale Score</h3>
+<p>The HFIAS score is a continuous measure of the degree of food insecurity (access) in the household in the past four weeks (30 days).</p>
+<p>Following are the steps in calculating the HFIAS score.</p>
+<ol type="1">
+<li><p>Code the <strong>frequency-of-occurrence</strong> as 0 for all cases where the answer to the corresponding occurrence question was <strong>“no”</strong> (i.e., if <strong>Q1=0</strong> then <strong>Q1a=0</strong>, if <strong>Q2=0</strong> then <strong>Q2a=0</strong>, etc.).</p></li>
+<li><p>Calculate a HFIAS score variable is calculated for each household by summing the codes for each <strong>frequency-of-occurrence question</strong>. The maximum score for a household is 27 (the household response to all nine frequency-of-occurrence questions was “often”, coded with response code of 3); the minimum score is 0 (the household responded “no” to all occurrence questions, frequency-of-occurrence questions were skipped by the interviewer, and subsequently coded as 0 by the data analyst.) The higher the score, the more food insecurity (access) the household experienced. The lower the score, the less food insecurity (access) a household experienced.</p></li>
+</ol>
+<p><span class="math display">\[ \text{HFIAS Score} = Q1a + Q2a + Q3a + Q4a + Q5a + Q6a + Q7a + Q8a + Q9a \]</span></p>
+<ol start="3" type="1">
+<li>Next, the average Household Food Insecurity Access Scale Score, is calculated using the household scores calculated above.</li>
+</ol>
+<p><span class="math display">\[ \text{Average HFIAS score} ~ = ~ \frac{\sum{\text{HFIAS scores in the sample}}}{\text{Number of households sampled}} \]</span></p>
+</section>
+<section id="household-food-insecurity-access-prevalence" class="level3" data-number="9.3.4">
+<h3 data-number="9.3.4" class="anchored" data-anchor-id="household-food-insecurity-access-prevalence"><span class="header-section-number">9.3.4</span> Household Food Insecurity Access Prevalence</h3>
+<p>The final indicator is a categorical indicator of Food Insecurity Status. The Household Food Insecurity Access Prevalence (HFIAP) Status indicator can be used to report household food insecurity (access) prevalence and make geographic targeting decisions.</p>
+<p>Because the average HFIAS score is a continuous variable, it is more sensitive to capturing smaller increments of changes over time than the HFIAP indicator. Therefore, the HFIAP indicator should be reported in addition to, rather than instead of, the average HFIAS Score for program monitoring and evaluation.</p>
+<p>The HFIAP indicator categorizes households into four levels of household food insecurity (access): <strong>food secure</strong>, and <strong>mildly</strong>, <strong>moderately</strong> and <strong>severely</strong> food insecure. Households are categorized as increasingly food insecure as they respond affirmatively to more severe conditions and/or experience those conditions more frequently.</p>
+<p>Following are the steps in calculating the HFIAP indicator.</p>
+<ol type="1">
+<li><p>The data analyst should have coded <strong>frequency-of-occurrence</strong> as 0 for all cases where the answer to the corresponding occurrence question was <strong>“no”</strong> (i.e., if <strong>Q1=0</strong> then <strong>Q1a=0</strong>, if <strong>Q2=0</strong> then <strong>Q2a=0</strong>, etc.)</p></li>
+<li><p>Calculate a HFIA category variable for each household by assigning a code for the food insecurity (access) category in which it falls. The four food security categories should be created sequentially, in the same order as shown below, to ensure that households are classified according to their most severe response.</p></li>
+</ol>
+<p><strong>Category 1: Food secure</strong></p>
+<p><span class="math display">\[\begin{aligned}
+\text{HFIA category 1 if } &amp; (Q1a = 0 ~ or ~ Q1a = 1) ~ and ~ Q2 = 0 ~ and \\
+&amp; Q3 = 0 ~ and ~ Q4 = 0 ~ and ~ Q5 = 0 ~ and ~ Q6 = 0 ~ and \\
+&amp; Q7 = 0 ~ and ~ Q8 = 0 ~ and ~ Q9 = 0
+\end{aligned}\]</span></p>
+<p><strong>Category 2: Mildly food insecure access</strong></p>
+<p><span class="math display">\[\begin{aligned}
+\text{HFIA category 2 if } &amp; (Q1a = 2 ~ or ~ Q1a = 3 ~ or ~ Q2a = 1 ~ or \\
+&amp; Q2a = 2 ~ or ~ Q2a = 3 ~ or ~ Q3a = 1 ~ or ~ Q4a = 1) ~ and \\
+&amp; Q5 = 0 ~ and ~ Q6 = 0 ~ and ~ Q7 = 0 ~ and ~ Q8 = 0 ~ and ~ Q9 = 0
+\end{aligned}\]</span></p>
+<p><strong>Category 3: Moderately food insecure access</strong></p>
+<p><span class="math display">\[\begin{aligned}
+\text{HFIA category 3 if } &amp; (Q3a = 2 ~ or ~ Q3a = 3 ~ or ~ Q4a = 2 ~ or Q4a = 3 ~ or \\
+&amp; Q5a = 1 ~ or ~ Q5a = 2 ~ or ~ Q6a = 1 ~ or ~ Q6a = 2) ~ and \\
+&amp; Q7 = 0 ~ and ~ Q8 = 0 ~ and ~ Q9 = 0
+\end{aligned}\]</span></p>
+<p><strong>Category 4: Severely food insecure access</strong></p>
+<p><span class="math display">\[\begin{aligned}
+\text{HFIA category 4 if } &amp; Q5a = 3 ~ or ~ Q6a = 3 ~ or ~ Q7a = 1 ~ or \\
+&amp; Q7a = 2 ~ or ~ Q7a = 3 ~ or ~ Q8a = 1 ~ or ~ Q8a = 2 ~ or \\
+&amp; Q8a = 3 ~ or ~ Q9a = 1 ~ or ~ Q9a = 2 ~ or ~ Q9a = 3
+\end{aligned}\]</span></p>
+<ol start="3" type="1">
+<li>Next, the prevalence of different levels of household food insecurity (access) is calculated.</li>
+</ol>
+<ul>
+<li>Percentage of households that are <strong>food secure</strong></li>
+</ul>
+<p><span class="math display">\[ \% ~ \text{households that are food secure} ~ = ~\frac{\text{No. of households with HFIA category = 1}}{\text{Total no. of households with a HFIA category}} \]</span></p>
+<ul>
+<li>Percentage of households that are <strong>mildly food insecure</strong></li>
+</ul>
+<p><span class="math display">\[ \% ~ \text{households that are mildly food insecure} ~ = ~\frac{\text{No. of households with HFIA category = 2}}{\text{Total no. of households with a HFIA category}} \]</span></p>
+<ul>
+<li>Percentage of households that are <strong>moderately food insecure</strong></li>
+</ul>
+<p><span class="math display">\[ \% ~ \text{households that are moderately food insecure} ~ = ~\frac{\text{No. of households with HFIA category = 3}}{\text{Total no. of households with a HFIA category}} \]</span></p>
+<ul>
+<li>Percentage of households that are <strong>severely food insecure</strong></li>
+</ul>
+<p><span class="math display">\[ \% ~ \text{households that are severely food insecure} ~ = ~\frac{\text{No. of households with HFIA category = 4}}{\text{Total no. of households with a HFIA category}} \]</span></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./08-foodconsumption.html" class="pagination-link" aria-label="Measuring food consumption">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/09-hfias.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
