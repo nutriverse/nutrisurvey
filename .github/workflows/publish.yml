@@ -16,12 +16,13 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.4.2'
-          tinytex: true
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
