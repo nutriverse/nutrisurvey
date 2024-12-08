@@ -1,28 +1,28 @@
-# Measuring weight {#weight}
+# Measuring weight {#sec-measure-weight}
 
-## Equipment
+## Equipment {#sec-measure-weight-equipment}
 
 Weighing scales are the equipment needed for measuring weight.
 
-### Types of weighing scales
+### Types of weighing scales {#sec-weighing-scales-types}
 
-Various types of scales are available to measure the weight of a child: 1) *spring scales*; 2) *hanging scales*; 2) *beam balance scales*; and, 3) *digital scales*.
+Various types of scales are available to measure the weight of a child: *spring scales*; *hanging scales*; *beam balance scales*; and, *digital scales*.
 
-*Spring scales* are the most common type of scales used worldwide. *Hanging scales* are a kind of *spring scale* that is hung from a height instead of laid flat on the ground. *Hanging scales* are commonly preferred in many countries because they can be transported easily, can be used in almost any setting (particularly where a flat surface is not available) and are relatively inexpensive. However, they are not very accurate and as such are not recommended for use in nutrition surveys.
+*Spring scales* are the most common type of scales used worldwide. *Hanging scales* (@fig-hanging-scale) are a kind of *spring scale* that is hung from a height instead of laid flat on the ground. *Hanging scales* are commonly preferred in many countries because they can be transported easily, can be used in almost any setting (particularly where a flat surface is not available) and are relatively inexpensive. However, they are not very accurate and as such are not recommended for use in nutrition surveys.
 
-```{r weight1, fig.cap = "Bathroom scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/springScale.jpg")
-```
+::: {#fig-spring-scales layout-ncol="2" layout-valign="bottom"}
 
-```{r weight2, fig.cap = "Hanging scale (spring)", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/hangingScale.png")
-```
+![Bathroom scale (spring)](images/springScale.jpg){#fig-bathroom-scale}
 
-*Balance beam scales* are commonly used in health centres, as they need to be positioned on a flat surface for accurate measurement and are not easily transported.
+![Hanging scale (spring)](images/hangingScale.png){#fig-hanging-scale}
 
-```{r weight3, fig.cap = "Balance beam scales", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/balanceBeam.jpg")
-```
+Types of spring scales
+
+:::
+
+*Balance beam scales* (@fig-balance-beam) are commonly used in health centres, as they need to be positioned on a flat surface for accurate measurement and are not easily transported.
+
+![Balance beam scales](images/balanceBeam.jpg){#fig-balance-beam fig-align="center"}
 
 *Digital scales* on the other hand are highly accurate (for as long as it is powered adequately and consistently), easily transportable though requiring a flat surface on which to be laid upon. They are generally of high quality and rugged for frequent field use as is needed for a nutrition survey. This is why *digital scales* are what's currently recommended for use in anthropometric measurements in a field survey setting.
 
@@ -46,32 +46,29 @@ In addition to being a *digital scale*, it is recommended to weigh children usin
 
 * The child is likely to remain calm when held in the mother’s arms for weighing.
 
-Currently, the most commonly used digital tared weighing scale is the **UNICEF Electric Scale (UNISCALE)** which is produced by **SECA** (the non-UNICEF branded scale is the **SECA model 890** or **SECA model 874**)
+Currently, the most commonly used digital tared weighing scale is the **UNICEF Electric Scale (UNISCALE)** which is produced by **SECA** (the non-UNICEF branded scale is the **SECA model 890** or **SECA model 874** - @fig-seca-scale)
 
-```{r weight4, fig.cap = "SECA scale model 874", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/seca874.png")
-```
+![SECA scale model 874](images/seca874.png){#fig-seca-scale fig-align="center"}
 
-### General use, care and maintenance of SECA tared scales
+### General use, care and maintenance of SECA tared scales {#sec-maintenance-seca}
 
-1. Place the scale on a hard, level surface (wood, concrete, or firm earth). Soft or uneven surfaces may cause small errors in weighing. It is therefore advisable that each survey team are provided with a wooden plank that can be laid on top of unlevel ground as a way to even out the surface. The plank should be big enough to cover a reasonable surface and sturdy enough to carry the weight of the scale and those being weighed.
+1. Place the scale on a hard, level surface (wood, concrete, or firm earth). Soft or uneven surfaces may cause small errors in weighing. It is therefore advisable that each survey team are provided with a wooden plank that can be laid on top of unlevel ground as a way to even out the surface (@fig-scale-wooden-plank). The plank should be big enough to cover a reasonable surface and sturdy enough to carry the weight of the scale and those being weighed.
 
-```{r weight5, fig.cap = "Weighing scale on a wooden plank", echo = FALSE, fig.align = "center", out.width = "50%", fig.retina = 1}
-knitr::include_graphics("images/weight01.png")
-```
+![Weighing scale on a wooden plank](images/weight01.png){#fig-scale-wooden-plank fig-align="center"}
 
-2. The scale will not function correctly if it becomes too warm.  It is best to use the scale in the shade, or indoors.  If the scale becomes hot and does not work correctly, place it in a cooler area and wait 15 minutes before using again.
+2. The scale will not function correctly if it becomes too warm. It is best to use the scale in the shade, or indoors. If the scale becomes hot and does not work correctly, place it in a cooler area and wait 15 minutes before using again.
 
 3. The scale must adjust to changes in temperature. If the scale is moved to a new site with a different temperature, wait for 15 minutes before using the scale again. It is advisable to test the scale before every measurement when the scale is moved and operated in extreme weather conditions.
 
 4. The scale must be tested every single day of fieldwork. This is best done using a labelled standard weight of 2.5 - 5.0 kg. This can be purchased locally, but must be tested initially to ensure that the indicated weight is accurate. Record the results of the daily test of the scale, including the date and weight. Using other types of standard weights is possible, but is not recommended. Some surveys have in the past used filled water bottles for testing, but as water or other liquids evaporate, this technique is flawed. Sand is a viable alternative, but only if labelled weights are not available.
 
 5. Handle the scale carefully:
-    * Do not drop or bump the scale.
-    * Do not weigh loads with a total weight of more than 150 kg.
-    * Do not store the scale in direct sunlight or other hot places.
-    * Protect the scale against excess humidity or wetness.
-    * Do not use the scale at temperatures below 10º C or above 45º C.
+
+* Do not drop or bump the scale.
+* Do not weigh loads with a total weight of more than 150 kg.
+* Do not store the scale in direct sunlight or other hot places.
+* Protect the scale against excess humidity or wetness.
+* Do not use the scale at temperatures below 10º C or above 45º C.
         
 6. The scale is battery-powered. Around 120,000 weighings can be performed with a fresh set of batteries.
 
@@ -89,21 +86,22 @@ If it is too cold to undress a child or if the child resists being undressed and
 
 2. *Switch on scale*
 
-The **measurers** should switch on the scale with no weight applied. The **SECA 874** can be turned on by tapping the **start** button. The **SECA 890** can be turned on by covering the solar cells for less than a second.
+The **measurers** should switch on the scale with no weight applied. The **SECA 874** can be turned on by tapping the **start** button (@fig-scale-seca-874-start). The **SECA 890** can be turned on by covering the solar cells for less than a second (@fig-scale-seca-890-start).
 
-```{r weight6, fig.cap = "Turning on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca874start.png")
-```
+::: {#fig-turn-on-seca layout-ncol="2" layout-valign="bottom"}
 
-```{r weight7, fig.cap = "Turning on the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca890start.png")
-```
+![Turning on the SECA 874](images/seca874start.png){#fig-scale-seca-874-start fig-align="center"}
+
+![Turning on the SECA 890](images/seca890start.png){#fig-scale-seca-890-start fig-align="center"}
+
+How to turn on SECA tared scales
+
+:::
+
 
 When the **SECA 890** is switched on, you will first notice the display showing `188.8`. Wait for the display to turn `0.0` before putting any weight onto the scale. The **assistant** on the other hand will be holding onto the paper questionnaire or the mobile device. The **assistant** will be in charge of recording the weight measurement.
 
-```{r weight8, fig.cap = "SECA 890 ready", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/seca890zero.png")
-```
+![SECA 890 ready](images/seca890zero.png){#fig-scale-seca-890-ready fig-align="center"}
 
 3. *Weighing the child*
 
@@ -125,29 +123,21 @@ b. _Tared weighing_
 
 If child is unable to stand still on the scale long enough or if child doesn't want to stand on the scale alone, then this child should be measured using *tared weighing*.
 
-The **measurer** asks the mother/caretaker to step onto the scale and then to stand still. After about 3 seconds, the weight of the mother/caretaker will be displayed.
+The **measurer** asks the mother/caretaker to step onto the scale and then to stand still (@fig-scale-adult-seca-874). After about 3 seconds, the weight of the mother/caretaker will be displayed.
 
-```{r weight9, fig.cap = "Weighing the adult first on the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca874adult.png")
-```
+![Weighing the adult first on the SECA 874](images/seca874adult.png){#fig-scale-adult-seca-874 fig-align="center"}
 
-If using the **SECA 874**, the **measurer** will have to press the **2 in 1** key found on the scale. This will store the weight of the mother/caretaker. The display on the device would show `0.0` reading and the word **NET** indicating that the weight of the mother/caretaker has been stored.
+If using the **SECA 874**, the **measurer** will have to press the **2 in 1** key found on the scale (@fig-scale-seca-874-tare). This will store the weight of the mother/caretaker. The display on the device would show `0.0` reading and the word **NET** indicating that the weight of the mother/caretaker has been stored.
 
-```{r weight10, fig.cap = "Taring the SECA 874", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca874net.png")
-```
+![Taring the SECA 974](images/seca874net.png){#fig-scale-seca-874-tare fig-align="center"}
 
-If using the **SECA 890**, the **measurer** will have to cover the solar cell of the device for less than a second and the display will revert back to `0.0` reading. This indicates that the weight of the mother/caretaker has been stored.
+If using the **SECA 890**, the **measurer** will have to cover the solar cell of the device (@fig-scale-seca-890-cover) for less than a second and the display will revert back to `0.0` reading. This indicates that the weight of the mother/caretaker has been stored.
 
-```{r weight11, fig.cap = "Taring the SECA 890", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca890cover.png")
-```
+![Taring the SECA 890](images/seca890cover.png){#fig-scale-seca-890-cover fig-align="center"}
 
-The **measurer** then asks the mother/caretaker to hold/carry the baby/child on their arms and to again stand as still as possible. The display will show a weight measure. If the weight display and the message `HOLD` are flashing, it means that the scale is waiting for the measurement to stabilise. The **measurer** should wait for the weight display and the message `HOLD` to stop flashing before reading the weight measurement.
+The **measurer** then asks the mother/caretaker to hold/carry the baby/child on their arms and to again stand as still as possible. The display will show a weight measure. If the weight display and the message `HOLD` are flashing, it means that the scale is waiting for the measurement to stabilise (@fig-scale-seca-874-hold). The **measurer** should wait for the weight display and the message `HOLD` to stop flashing before reading the weight measurement.
 
-```{r weight12, fig.cap = "SECA 874 on hold", echo = FALSE, fig.align = "center", fig.retina = 1}  
-knitr::include_graphics("images/seca874hold.png")
-```
+![SECA 874 on hold](images/seca874hold.png){#fig-scale-seca-874-hold fig-align="center"}
 
 Once the weight display has stopped flashing, The **measurer** reads out loud the child's weight from the display. The **measurer** should read the measurement entirely including the one decimal place that shows in display. Note that when using the SECA 874, the weight is displayed with two decimal places but the second decimal number is always 0. The second decimal place is not recorded.
 
@@ -155,9 +145,9 @@ The **assistant** then repeats the weight that has been called out.
 
 The **measurer** then confirms if this is the correct weight. If correct, then the **assistant** records the weight measurement on the paper questionnaire or on the mobile device. If incorrect, **measurer** reads out the measurement again until the **assistant** is able to repeat the correct weight.
 
-&nbsp;
-
 ::: {.callout-tip}
+
+## Reminders
 
 * Always calibrate scales ever day in the morning before data collection.
 
