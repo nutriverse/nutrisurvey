@@ -1,0 +1,44 @@
+name: Test render
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  test-render:
+    runs-on: ubuntu-latest
+    container: rocker/tidyverse:4.4.2
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install system dependencies
+        run: |
+          apt-get update && apt-get install -y --no-install-recommends \
+          libxt6 libglpk-dev gh curl jq
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Install packages from renv.lock (with cache)
+        if: ${{ !env.ACT }}  
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 2
+
+      - name: Install packages from renv.lock (local, no cache)
+        if: ${{ env.ACT }}  
+        run: |
+          renv::restore()
+        shell: Rscript {0}
+        
+      - name: Render document
+        run: |
+          quarto::quarto_render("index.qmd")
+        shell: Rscript {0}
