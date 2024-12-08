@@ -1,12 +1,14 @@
-name: Quarto Publish
+name: Test render
 
 on:
   push:
     branches: [main, master]
+  pull_request:
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
-  build-deploy:
+  test-render:
     runs-on: ubuntu-latest
     container: rocker/tidyverse:4.4.2
     env:
