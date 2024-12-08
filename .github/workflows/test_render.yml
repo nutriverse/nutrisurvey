@@ -16,10 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # - name: Install system dependencies
-      #   run: |
-      #     apt-get update && apt-get install -y --no-install-recommends \
-      #     libxt6 libglpk-dev gh curl jq rsync
+      - name: Install system dependencies
+        run: |
+          apt-get update && apt-get install -y --no-install-recommends \
+          libxt6 libglpk-dev gh curl jq
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
