@@ -1,9 +1,0 @@
-language: r
-sudo: false
-cache: 
-  packages: true
-  directories:
-    - _bookdown_files
-
-script:
-  - Rscript -e 'bookdown::render_book("index.rmd")'

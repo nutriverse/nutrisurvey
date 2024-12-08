@@ -1,0 +1,52 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: A Guide to Implementing Nutrition and Food Security Surveys
+  subtitle: Technical Handbook
+  author:
+    - Ernest Guevarra
+  date: last-modified
+  date-format: "DD MMMM YYYY"
+  chapters:
+    - index.qmd
+    - part: Child Anthropometry
+      chapters:
+        - 01-anthropometry.qmd
+        - 02-weight.qmd
+        - 03-height.qmd
+        - 04-muac.qmd
+        - 05-oedema.qmd
+        - 06-standardisation.qmd
+    - part: Dietary Intake
+      chapters:
+        - 07-dietdiversity.qmd
+        - 08-foodconsumption.qmd
+    - part: Food security
+      chapters:
+        - 09-hfias.qmd
+    - references.qmd
+  cover-image: images/nutrisurvey.png
+  search: true
+  repo-url: https://github.com/nutriverse/nutrisurvey/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  #sharing: [twitter, facebook]
+  google-analytics: 
+    tracking-id: ""
+    anonymize-ip: true
+
+bibliography: book.bib
+
+format:
+  html:
+    theme: pulse
+    highlight-style: breeze
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    highlight-style: breeze
+  epub:
+    cover-image: images/nutrisurvey.png
+    highlight-style: breeze
