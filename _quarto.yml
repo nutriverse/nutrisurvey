@@ -27,7 +27,7 @@ book:
       chapters:
         - 09-hfias.qmd
     - references.qmd
-  cover-image: images/nutrisurvey.png
+  cover-image: images/nutriverse.png
   search: true
   repo-url: https://github.com/nutriverse/nutrisurvey/
   repo-actions: [edit]
@@ -54,7 +54,7 @@ format:
     crossref: 
       chapters: true
   epub:
-    cover-image: images/nutrisurvey.png
+    cover-image: images/nutriverse.png
     highlight-style: breeze
     number-sections: true
     crossref: 
