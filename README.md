@@ -1,4 +1,4 @@
-# A Guide to Implementing Nutrition and Food Security Surveys <img src="images/nutrisurvey_small.png" align="right" />
+# A Guide to Implementing Nutrition and Food Security Surveys <img src="images/nutriverse.png" align="right" />
 
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)

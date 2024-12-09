@@ -1,24 +1,24 @@
+---
+output-file: muac.html
+---
+
 # Measuring mid-upper arm circumference (MUAC) {#sec-measure-muac}
 
-## Equipment
+## Equipment {#sec-measure-muac-equipment}
 
-```{r muac1, fig.cap = "MUAC tape with colour cut-offs at 115 mm and 125 mm", echo = FALSE, fig.align = "center", fig.retina = 1}
-knitr::include_graphics("images/muac01.png")
-```
+![MUAC tape with colour cut-offs at 115 mm and 125 mm](images/muac01.png){#fig-muac-tape fig-align="center"}
 
 MUAC is a quick and simple way to determine whether or not a child is malnourished using a simple coloured plastic strip. There are different types of MUAC tape available. All are graduated in millimetres and some are colour coded (red, yellow and green) to indicate the nutritional status of a child or adult. The colour codes and gradations vary depending on the tape type.
 
-The most appropriate MUAC tape to use would be the tapes that use the latest WHO Growth Standards cut-offs for acute malnutrition. These are the tapes that have three colours (red, yellow, green) with colour cut-offs at 115 mm and 125 mm. The MUAC tapes should also be precise up to 1 mm. The material for the MUAC tape needs to be flexible but non-stretchable. An example of this kind of MUAC tape is shown in Figure \@ref(fig:muac1).
+The most appropriate MUAC tape to use would be the tapes that use the latest WHO Growth Standards cut-offs for acute malnutrition. These are the tapes that have three colours (red, yellow, green) with colour cut-offs at 115 mm and 125 mm. The MUAC tapes should also be precise up to 1 mm. The material for the MUAC tape needs to be flexible but non-stretchable. An example of this kind of MUAC tape is shown in @fig-muac-tape.
 
-## Personnel
+## Personnel {#sec-measure-muac-personnel}
 
 Only a single **measurer** is required to measure the MUAC of a child. If with an **assistant** is available, he/she records the MUAC measurement.
 
-## Steps in measuring MUAC
+## Steps in measuring MUAC {#sec-measure-muac-steps}
 
-```{r muac2, fig.cap = "Steps in measuring MUAC", echo = FALSE, fig.align = "center", fig.retina = "1"}
-knitr::include_graphics("images/muac02.png")
-```
+![Steps in measuring MUAC](images/muac02.png){#fig-measure-muac-steps fig-align="center"}
 
 1. When measuring MUAC, ensure work at eye level. Sit down when possible. Very young children can be held by their mother during this procedure. Ask the mother to remove clothing that may cover the child’s left arm.
 
@@ -40,10 +40,16 @@ knitr::include_graphics("images/muac02.png")
 
 10. **Measurer** removes the tape from the child’s arm.
 
-&nbsp;
-
 ::: {.callout-warning}
 
-Common mistakes when measuring MUAC include **1)** measuring on the right arm; **2)** estimating (rather than measuring) the mid-point of the upper arm; **3)** bending the MUAC tape when measuring the midpoint; **4)** not measuring the midpoint from the tip of the shoulder to the elbow bend; **5)** pulling the MUAC tape too tight; **6)** not pulling the MUAC tape tight enough (too slack); **7)** not reading the tape accurately (to nearest smillimetre).
+## Common mistakes when measuring MUAC
+
+* measuring on the right arm;
+* estimating (rather than measuring) the mid-point of the upper arm;
+* bending the MUAC tape when measuring the midpoint;
+* not measuring the midpoint from the tip of the shoulder to the elbow bend; 
+* pulling the MUAC tape too tight;
+* not pulling the MUAC tape tight enough (too slack); and,
+* not reading the tape accurately (to nearest millimetre).
 
 :::
