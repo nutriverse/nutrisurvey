@@ -131,19 +131,30 @@
     ]
   },
   {
-    "objectID": "04-muac.html",
-    "href": "04-muac.html",
+    "objectID": "muac.html",
+    "href": "muac.html",
     "title": "4  Measuring mid-upper arm circumference (MUAC)",
     "section": "",
-    "text": "4.1 Equipment\nMUAC tape with colour cut-offs at 115 mm and 125 mm\nMUAC is a quick and simple way to determine whether or not a child is malnourished using a simple coloured plastic strip. There are different types of MUAC tape available. All are graduated in millimetres and some are colour coded (red, yellow and green) to indicate the nutritional status of a child or adult. The colour codes and gradations vary depending on the tape type.\nThe most appropriate MUAC tape to use would be the tapes that use the latest WHO Growth Standards cut-offs for acute malnutrition. These are the tapes that have three colours (red, yellow, green) with colour cut-offs at 115 mm and 125 mm. The MUAC tapes should also be precise up to 1 mm. The material for the MUAC tape needs to be flexible but non-stretchable. An example of this kind of MUAC tape is shown in Figure @ref(fig:muac1).",
+    "text": "4.1 Equipment\nMUAC is a quick and simple way to determine whether or not a child is malnourished using a simple coloured plastic strip. There are different types of MUAC tape available. All are graduated in millimetres and some are colour coded (red, yellow and green) to indicate the nutritional status of a child or adult. The colour codes and gradations vary depending on the tape type.\nThe most appropriate MUAC tape to use would be the tapes that use the latest WHO Growth Standards cut-offs for acute malnutrition. These are the tapes that have three colours (red, yellow, green) with colour cut-offs at 115 mm and 125 mm. The MUAC tapes should also be precise up to 1 mm. The material for the MUAC tape needs to be flexible but non-stretchable. An example of this kind of MUAC tape is shown in Figure 4.1.",
     "crumbs": [
       "Child Anthropometry",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measuring mid-upper arm circumference (MUAC)</span>"
     ]
   },
   {
-    "objectID": "04-muac.html#personnel",
-    "href": "04-muac.html#personnel",
+    "objectID": "muac.html#sec-measure-muac-equipment",
+    "href": "muac.html#sec-measure-muac-equipment",
+    "title": "4  Measuring mid-upper arm circumference (MUAC)",
+    "section": "",
+    "text": "Figure 4.1: MUAC tape with colour cut-offs at 115 mm and 125 mm",
+    "crumbs": [
+      "Child Anthropometry",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measuring mid-upper arm circumference (MUAC)</span>"
+    ]
+  },
+  {
+    "objectID": "muac.html#sec-measure-muac-personnel",
+    "href": "muac.html#sec-measure-muac-personnel",
     "title": "4  Measuring mid-upper arm circumference (MUAC)",
     "section": "4.2 Personnel",
     "text": "4.2 Personnel\nOnly a single measurer is required to measure the MUAC of a child. If with an assistant is available, he/she records the MUAC measurement.",
@@ -153,11 +164,11 @@
     ]
   },
   {
-    "objectID": "04-muac.html#steps-in-measuring-muac",
-    "href": "04-muac.html#steps-in-measuring-muac",
+    "objectID": "muac.html#sec-measure-muac-steps",
+    "href": "muac.html#sec-measure-muac-steps",
     "title": "4  Measuring mid-upper arm circumference (MUAC)",
     "section": "4.3 Steps in measuring MUAC",
-    "text": "4.3 Steps in measuring MUAC\n\n\n\n\n\nSteps in measuring MUAC\n\n\n\n\n\nWhen measuring MUAC, ensure work at eye level. Sit down when possible. Very young children can be held by their mother during this procedure. Ask the mother to remove clothing that may cover the child’s left arm.\nMeasurer calculates the midpoint of the child’s left upper arm by first locating the tip of the child’s shoulder (arrows 1 and 2) with finger tips. Bend the child’s elbow to make a right angle (arrow 3). Place the tape at zero, which is indicated by two arrows, on the tip of the shoulder (arrow 4) and pull the tape straight down past the tip of the elbow (arrow 5). Read the number at the tip of the elbow to the nearest centimetre. Divide this number by two to estimate the midpoint. As an alternative, bend the tape up to the middle length to estimate the midpoint. A piece of string can also be used for this purpose. Either you or an assistant can mark the midpoint with a pen on the arm (arrow 6).\nMeasurer straightens the child’s arm and wraps the tape around the arm at midpoint. Make sure the numbers are right side up. Make sure the tape is flat around the skin (arrow 7).\nMeasurer and assistant inspects the tension of the tape on the child’s arm. Make sure the tape has the proper tension (arrow 7) and is not too tight or too loose (arrows 8-9). Repeat any steps as necessary.\nAssistant is on ready with the paper questionnaire or the mobile device.\nWhen the tape is in the correct position on the arm with the correct tension, measurer reads and calls out the measurement to the nearest 0.1 cm. (arrow 10).\nAssistant immediately records the measurement on the questionnaire or the mobile device and shows it to the measurer.\nWhile the assistant records the measurement, measurer loosens the tape on the child’s arm.\nMeasurer checks the recorded measurement on the questionnaire or mobile device for accuracy and legibility then instructs the assistant to erase and correct any errors.\nMeasurer removes the tape from the child’s arm.\n\n \n\n\n\n\n\n\nWarning\n\n\n\nCommon mistakes when measuring MUAC include 1) measuring on the right arm; 2) estimating (rather than measuring) the mid-point of the upper arm; 3) bending the MUAC tape when measuring the midpoint; 4) not measuring the midpoint from the tip of the shoulder to the elbow bend; 5) pulling the MUAC tape too tight; 6) not pulling the MUAC tape tight enough (too slack); 7) not reading the tape accurately (to nearest smillimetre).",
+    "text": "4.3 Steps in measuring MUAC\n\n\n\n\n\n\nFigure 4.2: Steps in measuring MUAC\n\n\n\n\nWhen measuring MUAC, ensure work at eye level. Sit down when possible. Very young children can be held by their mother during this procedure. Ask the mother to remove clothing that may cover the child’s left arm.\nMeasurer calculates the midpoint of the child’s left upper arm by first locating the tip of the child’s shoulder (arrows 1 and 2) with finger tips. Bend the child’s elbow to make a right angle (arrow 3). Place the tape at zero, which is indicated by two arrows, on the tip of the shoulder (arrow 4) and pull the tape straight down past the tip of the elbow (arrow 5). Read the number at the tip of the elbow to the nearest centimetre. Divide this number by two to estimate the midpoint. As an alternative, bend the tape up to the middle length to estimate the midpoint. A piece of string can also be used for this purpose. Either you or an assistant can mark the midpoint with a pen on the arm (arrow 6).\nMeasurer straightens the child’s arm and wraps the tape around the arm at midpoint. Make sure the numbers are right side up. Make sure the tape is flat around the skin (arrow 7).\nMeasurer and assistant inspects the tension of the tape on the child’s arm. Make sure the tape has the proper tension (arrow 7) and is not too tight or too loose (arrows 8-9). Repeat any steps as necessary.\nAssistant is on ready with the paper questionnaire or the mobile device.\nWhen the tape is in the correct position on the arm with the correct tension, measurer reads and calls out the measurement to the nearest 0.1 cm. (arrow 10).\nAssistant immediately records the measurement on the questionnaire or the mobile device and shows it to the measurer.\nWhile the assistant records the measurement, measurer loosens the tape on the child’s arm.\nMeasurer checks the recorded measurement on the questionnaire or mobile device for accuracy and legibility then instructs the assistant to erase and correct any errors.\nMeasurer removes the tape from the child’s arm.\n\n\n\n\n\n\n\nCommon mistakes when measuring MUAC\n\n\n\n\nmeasuring on the right arm;\nestimating (rather than measuring) the mid-point of the upper arm;\nbending the MUAC tape when measuring the midpoint;\nnot measuring the midpoint from the tip of the shoulder to the elbow bend;\npulling the MUAC tape too tight;\nnot pulling the MUAC tape tight enough (too slack); and,\nnot reading the tape accurately (to nearest millimetre).",
     "crumbs": [
       "Child Anthropometry",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measuring mid-upper arm circumference (MUAC)</span>"
