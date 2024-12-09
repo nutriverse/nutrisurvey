@@ -46,6 +46,7 @@ format:
     number-sections: true
     crossref:
       chapters: true
+    html-table-processing: none
   pdf:
     documentclass: scrreprt
     papersize: a4

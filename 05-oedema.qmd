@@ -1,3 +1,8 @@
+---
+output-file: oedema.html
+engine: knitr
+---
+
 # Checking for oedema {#sec-test-oedema}
 
 Nutritional oedema, manifested as bilateral pitting oedema, is a sign of severe acute malnutrition. Nutritional oedema always starts from the feet and extends upwards to other parts of the body. Children with nutritional oedema are at high risk of mortality hence require immediate therapeutic care. This chapter describes how to check nutritional oedema.
@@ -34,19 +39,26 @@ If there is nutritional oedema present on the lower legs, perform the same test 
 
 **Step 3** and **Step 4** are performed to be able to grade or classify the level of nutritional oedema the child is suffering from (if present).
 
-::: {.column-margin}
+```{r}
+#| label: tbl-oedema-grade
+#| tbl-cap: Nutritional oedema classification
+#| echo: false
 
-+------------------------------------------------------------+---------------+
-| **Oedema Description**                                     | **Grade**     |
-+============================================================+===============+
-| Oedema below the knees                                     | `+`           |
-+------------------------------------------------------------+---------------+
-| Oedema in both feet and legs, below the knees              | `++`          |
-+------------------------------------------------------------+---------------+
-| Oedema in both feet, legs, arms and sacral pad and eyelids | `+++`         |
-+------------------------------------------------------------+---------------+
-
-:::
+data.frame(
+  description = c(
+    "Oedema below the knees",
+    "Oedema in both feet and legs",
+    "Oedema in both feet, legs, arms, and sacral pad and eyelids"
+  ),
+  grade = c("+", "++", "+++")
+) |>
+  knitr::kable(col.names = c("Oedema Description", "Grade")) |>
+  kableExtra::kable_styling(
+    bootstrap_options = c("bordered", "striped"),
+    full_width = FALSE, 
+    position = "center"
+  )
+```
 
 5. Record on the paper questionnaire or the mobile device the presence or absence of oedema. If oedema is present, record also the grade of the oedema.
 
