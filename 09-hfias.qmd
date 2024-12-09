@@ -1,4 +1,4 @@
-# Household Food Insecurity Access Scale {#hfias}
+# Household Food Insecurity Access Scale {#sec-hfias}
 
 ## Introduction
 Household Food Insecurity Access Scale (HFIAS) is one of the experience-based food insecurity scales. Experience-based indicators are constructed from a short questionnaire that captures households’ behavioural and psychological manifestations of insecure food access, such as having to reduce the number of meals consumed or cut back on the quality of the food due to a lack of resources. HFIAS was developed in 2006 by the USAID-funded Food and Nutrition Technical Assistance II project (FANTA) in collaboration with Tufts and Cornell Universities, among other partners.

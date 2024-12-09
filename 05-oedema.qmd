@@ -1,4 +1,4 @@
-# Checking for oedema {#oedema}
+# Checking for oedema {#sec-test-oedema}
 
 Nutritional oedema, manifested as bilateral pitting oedema, is a sign of severe acute malnutrition. Nutritional oedema always starts from the feet and extends upwards to other parts of the body. Children with nutritional oedema are at high risk of mortality hence require immediate therapeutic care. This [chapter](#oedema) describes how to check nutritional oedema.
 

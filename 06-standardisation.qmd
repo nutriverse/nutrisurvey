@@ -1,4 +1,4 @@
-# Anthropometric measurement standardisation test {#standard}
+# Anthropometric measurement standardisation test {#sec-standardisation-test}
 
 The survey personnel should go through theoretical discussions and demonstrations on how to perform the anthropometric measurements. This should then be followed by practical demonstration of the measurement techniques, measurement readings and recording ideally with a large number of children particularly if there is a large number of survey personnel. Once all personnel have had the opportunity to adequately practice their measurement and recording techniques, a standardisation test or exercise must be carried out. Chapter \@ref(standard) provides detailed instructions on how to carry out an anthropometric measurement standardisation test as part of a training process in preparation for a nutrition survey.
 

@@ -1,4 +1,4 @@
-# Measuring mid-upper arm circumference (MUAC) {#muac}
+# Measuring mid-upper arm circumference (MUAC) {#sec-measure-muac}
 
 ## Equipment
 
