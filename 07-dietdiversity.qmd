@@ -1,4 +1,4 @@
-# Measuring dietary diversity {#diet}
+# Measuring dietary diversity {#sec-diet-diversity}
 
 ## Introduction
 Dietary diversity can be measured in various ways with the traditional approach being time consuming, expensive, and requiring a high level of technical skill both in data collection and analysis. Recent development work in this indicator has brought about the use of a qualitative approach to food consumption that reflects household access to a wide variety of foods, and is also a proxy of the nutrient adequacy of the diet for individuals. The approach uses a specifically designed and tested dietary diversity questionnaire as a tool to elicit food consumption information in a more rapid, user-friendly and cost-effective approach. Administration of the questionnaire is straightforward and can be handled easily by trained enumerators. The scoring and/or analysis of the information gained from the questionnaire is easy to understand, quick to implement, and can be applied with minimal technical expertise.

@@ -1,3 +1,7 @@
+---
+output-file: weight.html
+---
+
 # Measuring weight {#sec-measure-weight}
 
 ## Equipment {#sec-measure-weight-equipment}

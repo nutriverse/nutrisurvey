@@ -1,4 +1,4 @@
-# Measuring food consumption {#food}
+# Measuring food consumption {#sec-food-consumption-score}
 
 ## Introduction
 
