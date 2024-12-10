@@ -1,3 +1,7 @@
+---
+output-file: hfias.html
+---
+
 # Household Food Insecurity Access Scale {#sec-hfias}
 
 ## Introduction

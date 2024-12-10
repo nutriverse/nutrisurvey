@@ -1,3 +1,7 @@
+---
+output-file: food-consumption-score.html
+---
+
 # Measuring food consumption {#sec-food-consumption-score}
 
 ## Introduction
