@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>8&nbsp; Measuring food consumption – A Guide to Implementing Nutrition and Food Security Surveys</title>
+<title>6&nbsp; Anthropometric measurement standardisation test – A Guide to Implementing Nutrition and Food Security Surveys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./09-hfias.html" rel="next">
-<link href="./07-dietdiversity.html" rel="prev">
+<link href="./diet-diversity.html" rel="next">
+<link href="./oedema.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -78,39 +78,10 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,7 +90,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-dietdiversity.html">Dietary Intake</a></li><li class="breadcrumb-item"><a href="./08-foodconsumption.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./anthropometry.html">Child Anthropometry</a></li><li class="breadcrumb-item"><a href="./standardisation.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -211,7 +182,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-standardisation.html" class="sidebar-item-text sidebar-link">
+  <a href="./standardisation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></span></a>
   </div>
 </li>
@@ -228,13 +199,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07-dietdiversity.html" class="sidebar-item-text sidebar-link">
+  <a href="./diet-diversity.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Measuring dietary diversity</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-foodconsumption.html" class="sidebar-item-text sidebar-link active">
+  <a href="./food-consumption-score.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></span></a>
   </div>
 </li>
@@ -251,7 +222,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-hfias.html" class="sidebar-item-text sidebar-link">
+  <a href="./hfias.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></span></a>
   </div>
 </li>
@@ -273,18 +244,23 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">8.1</span> Introduction</a></li>
-  <li><a href="#fcs-questionnaire" id="toc-fcs-questionnaire" class="nav-link" data-scroll-target="#fcs-questionnaire"><span class="header-section-number">8.2</span> FCS questionnaire</a></li>
-  <li><a href="#calculating-the-fcs" id="toc-calculating-the-fcs" class="nav-link" data-scroll-target="#calculating-the-fcs"><span class="header-section-number">8.3</span> Calculating the FCS</a></li>
+  <li><a href="#sec-standardisation-test-objectives" id="toc-sec-standardisation-test-objectives" class="nav-link active" data-scroll-target="#sec-standardisation-test-objectives"><span class="header-section-number">6.1</span> Objectives</a></li>
+  <li><a href="#sec-standardisation-test-mechanics" id="toc-sec-standardisation-test-mechanics" class="nav-link" data-scroll-target="#sec-standardisation-test-mechanics"><span class="header-section-number">6.2</span> Mechanics</a>
+  <ul class="collapse">
+  <li><a href="#sec-standardisation-test-parameters" id="toc-sec-standardisation-test-parameters" class="nav-link" data-scroll-target="#sec-standardisation-test-parameters"><span class="header-section-number">6.2.1</span> Test parameters</a></li>
+  <li><a href="#sec-standardisation-test-requirements" id="toc-sec-standardisation-test-requirements" class="nav-link" data-scroll-target="#sec-standardisation-test-requirements"><span class="header-section-number">6.2.2</span> Test organisation and requirements</a></li>
+  <li><a href="#sec-standardisation-test-timeframe" id="toc-sec-standardisation-test-timeframe" class="nav-link" data-scroll-target="#sec-standardisation-test-timeframe"><span class="header-section-number">6.2.3</span> Timeframe</a></li>
+  <li><a href="#sec-standardisation-test-steps" id="toc-sec-standardisation-test-steps" class="nav-link" data-scroll-target="#sec-standardisation-test-steps"><span class="header-section-number">6.2.4</span> Steps in carrying out the standardisation test</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/08-foodconsumption.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/06-standardisation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-dietdiversity.html">Dietary Intake</a></li><li class="breadcrumb-item"><a href="./08-foodconsumption.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./anthropometry.html">Child Anthropometry</a></li><li class="breadcrumb-item"><a href="./standardisation.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-food-consumption-score" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Measuring food consumption</span></span></h1>
+<h1 class="title"><span id="sec-standardisation-test" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Anthropometric measurement standardisation test</span></span></h1>
 </div>
 
 
@@ -301,297 +277,184 @@ window.Quarto = {
 </header>
 
 
-<section id="introduction" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">8.1</span> Introduction</h2>
-<p>The <strong>Food Consumption Score (FCS)</strong> is an index developed by the World Food Programme (WFP) in 1996. The <strong>FCS</strong> is a household level indicator that aggregates food group diversity and frequency over the past 7 days. These food groups are then weighted according to their relative nutritional value. This means that food groups that are nutritionally-dense such as animal products are given greater weight than those containing less nutritionally dense foods such as tubers. The weights are then added up to come up with a household score which are then used to classify households into either poor, borderline, or acceptable food consumption. The <strong>FCS</strong> is a measure of quantity of caloric intake.</p>
+<p>The survey personnel should go through theoretical discussions and demonstrations on how to perform the anthropometric measurements. This should then be followed by practical demonstration of the measurement techniques, measurement readings and recording ideally with a large number of children particularly if there is a large number of survey personnel. Once all personnel have had the opportunity to adequately practice their measurement and recording techniques, a standardisation test or exercise must be carried out. This chapter provides detailed instructions on how to carry out an anthropometric measurement standardisation test as part of a training process in preparation for a nutrition survey.</p>
+<section id="sec-standardisation-test-objectives" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="sec-standardisation-test-objectives"><span class="header-section-number">6.1</span> Objectives</h2>
+<p>The standardisation test evaluates the <strong>precision</strong> and the <strong>accuracy</strong> of the measurements taken by each survey personnel.</p>
+<p>The <strong>accuracy</strong> of measurements taken by survey personnel is determined by how close they are to the true value with repeated measurements. On the other hand, the <strong>precision</strong> of measurements taken by survey personnel is determined by how similar the values are of repeated measurements made. In preparation for a nutrition survey while the survey personnel are in training, the aim is for survey personnel to be <em>highly accurate</em> and <em>highly precise</em> with their anthropometric measurements.</p>
+<div id="fig-accuracy-precision" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-accuracy-precision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/accuracyPrecision.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-accuracy-precision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Relationship between accuracy and precision
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="fcs-questionnaire" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="fcs-questionnaire"><span class="header-section-number">8.2</span> FCS questionnaire</h2>
-<p>A brief questionnaire is used to ask respondents about the frequency of their households’ consumption of eight different food groups over the previous seven days. The eight food groups are:</p>
+<section id="sec-standardisation-test-mechanics" class="level2 page-columns page-full" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="sec-standardisation-test-mechanics"><span class="header-section-number">6.2</span> Mechanics</h2>
+<p>The general process of the standardisation test is for each survey personnel to take measurements of at least 10 children 6-59 months, twice, with an interval of time between the 1st and 2nd measurements.</p>
+<section id="sec-standardisation-test-parameters" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="sec-standardisation-test-parameters"><span class="header-section-number">6.2.1</span> Test parameters</h3>
+<p>The following test parameters need to be followed when conducting an anthropometric standardisation test:</p>
 <ol type="1">
-<li>Main staples</li>
-<li>Pulses</li>
-<li>Vegetables</li>
-<li>Fruit</li>
-<li>Meat/fish</li>
-<li>Milk</li>
-<li>Sugar</li>
-<li>Oil</li>
+<li><p>The same type of equipment must be used both during the standardisation test and the survey</p></li>
+<li><p>Each child is measured with the same equipment</p></li>
+<li><p>The supervisor must observe how measurements are being taken</p></li>
+<li><p>Survey personnel measurements are compared to the reference (supervisor) values</p></li>
+<li><p>Survey personnel measurements are compared to the repeated measures taken (intra-observer)</p></li>
 </ol>
-<p>Following is a model questionnaire that can be used for collecting data on <strong>FCS</strong>.</p>
-<p><strong>Question:</strong> I would like to ask you about all the different foods that your household members have eaten in the last 7 days. Could you please tell me how many days in the past week your household has eaten the following foods?</p>
-<p><em>(for each food, ask what the primary source of each food item eaten that week was, as well as the second main source of food, if any)</em></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 35%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 0%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;"></th>
-<th>Food item</th>
-<th>Number of days eaten in the past</th>
-<th>Primary source (see codes)</th>
-<th>Secondary source (see codes)</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Maize</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Rice</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Bread/wheat</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td>Tubers</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td>Groundnuts and pulses</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">6</td>
-<td>Fish (eaten as a main food)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">7</td>
-<td colspan="5">Fish powder (used for flavour only) | | |</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">8</td>
-<td>Red meat (sheep/goat/beef)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">9</td>
-<td>White meat (poultry)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10</td>
-<td>Vegetable oil, fats</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td>Eggs</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">12</td>
-<td>Milk and dairy products (main food)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">13</td>
-<td>Milk in tea in small amounts</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">14</td>
-<td>Vegetables (including leaves)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">15</td>
-<td>Fruits</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">16</td>
-<td>Sweets, sugar</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Food source codes:</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Purchase = 1; Own production = 2; Traded goods/services, barter = 3; Borrowed = 4; Received as gifts = 5; Food aid = 6; Others: (specify) = 7</td>
-</tr>
-</tbody>
-</table>
-<p>This model questionnaire should be adapted to each survey context in which it is to be used.</p>
 </section>
-<section id="calculating-the-fcs" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="calculating-the-fcs"><span class="header-section-number">8.3</span> Calculating the FCS</h2>
-<p>The <strong>FCS</strong> or the frequency weighted diet diversity score is a score calculated using the frequency of consumption of different food groups consumed by a household during the 7 days before the survey. Following are the steps to calculate the FCS:</p>
-<p><strong>Step 1.</strong> Using the standard questionnaire above, group all the food items into specific food groups (see groups in table below).</p>
+<section id="sec-standardisation-test-requirements" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-standardisation-test-requirements"><span class="header-section-number">6.2.2</span> Test organisation and requirements</h3>
+<p>The following test organisation and requirements need to be met in order to conduct a credible standardisation test:</p>
+<ol type="1">
+<li><p>Spacious and shady area</p></li>
+<li><p>Healthy children between 6 and 59 months or according to the age group targeted by the survey</p></li>
+<li><p>Incentives provided for the mother and children</p></li>
+<li><p>Survey personnel are grouped into pairs, but each personnel will carry out the measurements in turn</p></li>
+<li><p>There should only be one pair of survey personnel per child at any time during the test</p></li>
+<li><p>Each survey personnel is given a unique ID. For example if there are 20 survey personnel, a unique ID from 1 to 20 is given to each survey personnel. The supervisor’s ID is always 0.</p></li>
+<li><p>Each measurement station should have a height board, weighing scale and a MUAC tape</p></li>
+<li><p>Each child must remain with their mother in a fixed station with a unique ID number. For example if there are 10 mother and children pairs, a unique ID from 1 to 10 is given to each pair</p></li>
+<li><p>It is not allowed for pairs of survey personnel to speak with other pairs during the test</p></li>
+</ol>
+</section>
+<section id="sec-standardisation-test-timeframe" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="sec-standardisation-test-timeframe"><span class="header-section-number">6.2.3</span> Timeframe</h3>
+<p>In order to follow the test parameters specified above and organise the test appropriately, a considerable amount of time needs to be set aside for conducting the test.</p>
+<p>For a survey team of about 20 survey personnel, the test can be carried out in 2 half-days such that half of the survey personnel (first half of each team) measures 10 children in the morning and the other half (second half of each team) measures the same 10 children in the afternoon.</p>
+<p>It would be possible to have a different set of 10 children for the afternoon session. However, the results of the first half who took the test in the morning cannot be combined with the results of the second half who took the test in the afternoon.</p>
+<p>For larger scale surveys with survey personnel more than 20, more days will be required to conduct the test to appropriately and to correct specifications.</p>
+</section>
+<section id="sec-standardisation-test-steps" class="level3 page-columns page-full" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="sec-standardisation-test-steps"><span class="header-section-number">6.2.4</span> Steps in carrying out the standardisation test</h3>
+<ol type="1">
+<li>The supervisor carefully performs the measurements on each child without allowing the teams to see the values. The supervisor records his/her measurements on the standardisation test form for the first round of measurements.</li>
+</ol>
+<div id="tbl-standardisation-test-form" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-standardisation-test-form-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.1: Example of a standardisation test form
+</figcaption>
+<div aria-describedby="tbl-standardisation-test-form-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 45%">
-<col style="width: 23%">
-<col style="width: 23%">
+<col style="width: 15%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 16%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;"></th>
-<th>Food items</th>
-<th>Food groups</th>
-<th>Weight</th>
+<th>Child ID</th>
+<th>Weight (kg)</th>
+<th>Height (cm)</th>
+<th>MUAC (mm)</th>
+<th>Oedema (yes/no)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Maize , maize porridge, rice, sorghum, millet pasta, bread and other cereals Cassava, potatoes and sweet potatoes, other tubers, plantains</td>
-<td>Main staples</td>
-<td>2</td>
+<td>01</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">2</td>
-<td>Beans, peas, groundnuts and cashew nuts</td>
-<td>Pulses</td>
-<td>3</td>
+<td>02</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Vegetables, leaves</td>
-<td>Vegetables</td>
-<td>1</td>
+<td>03</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">4</td>
-<td>Fruits</td>
-<td>Fruits</td>
-<td>1</td>
+<td>04</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">5</td>
-<td>Beef, goat, poultry, pork, eggs and fish</td>
-<td>Meat and fish</td>
-<td>4</td>
+<td>05</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">6</td>
-<td>Milk yoghurt and other diary</td>
-<td>Milk</td>
-<td>4</td>
+<td>06</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">7</td>
-<td>Sugar and sugar products, honey</td>
-<td>Sugar</td>
-<td>0.5</td>
+<td>07</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">8</td>
-<td>Oils, fats and butter</td>
-<td>Oil</td>
-<td>0.5</td>
+<td>08</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">9</td>
-<td>Spices, tea, coffee, salt, fishpowder, small amounts of milk for tea.</td>
-<td>Condiments</td>
-<td>0</td>
+<td>09</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Step 2.</strong> Sum all the consumption frequencies of food items of the same group, and recode the value of each group above 7 as 7.</p>
-<p><strong>Step 3.</strong> Multiply the value obtained for each food group by its weight (see food group weights in table below) and create new weighted food group scores.</p>
-<p><strong>Step 4.</strong> Sum the weighed food group scores, thus creating the food consumption score (FCS).</p>
-<p><strong>Step 5.</strong> Using the appropriate thresholds (see below), recode the variable food consumption score, from a continuous variable to a categorical variable.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 29%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>FCS</strong></th>
-<th><strong>Profiles</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0 - 21</td>
-<td>Poor</td>
-</tr>
-<tr class="even">
-<td>21.5 - 35</td>
-<td>Borderline</td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(&gt;\)</span> 35</td>
-<td>Acceptable</td>
-</tr>
-</tbody>
-</table>
+</div>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Download
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sample standardisation test form - <a href="pdf/standardForm.pdf">PDF</a></p>
+</div>
+</div></div><ol start="2" type="1">
+<li><p>Each team starts with a different child, and the first half of the team measures the child once and records the results in a standard form for the 1st measurement (as above). The current measurer should make sure that he/she is entering data in the row corresponding to the child ID of the child he/she is currently measuring.</p></li>
+<li><p>When the first half of the team has done the measurements for the current child, they should move on to the next child. After the first half of all the teams has measured 10 children once, the first measurement round forms are handed in. The teams and the children then take a break. Appropriate incentives including food and drinks to snack on during the break should be provided to the mothers and children.</p></li>
+<li><p>After the break, the first half of the team repeats the whole process and measures each child for the second time and records his/her measurements onto the standardisation test form for the second round of measurements. After the the first half of all the teams has measured 10 children twice, the second measurement round forms are handed in. The teams and the children then take a break for lunch (end of first half of the day/first half of the test). Appropriate lunch arrangements should be prepared for the mothers and children.</p></li>
+<li><p>After the lunch break or on a new day altogether, the whole process is done all over again but this time, the second half of the teams will be performing the measurements. Ideally, the same set of mother and child pairs should be utilised for the second half day of testing. However, it may be that some of the mothers will be unable to come back to help. If for the second half day of testing the mother and child pairs are different from the first half day, then measurements made in the second half day cannot be mixed with the data from the first half day when reporting on the performance in the standardisation test of the survey personnel.</p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1014,13 +877,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./07-dietdiversity.html" class="pagination-link" aria-label="Measuring dietary diversity">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Measuring dietary diversity</span></span>
+      <a href="./oedema.html" class="pagination-link" aria-label="Checking for oedema">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking for oedema</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./09-hfias.html" class="pagination-link" aria-label="Household Food Insecurity Access Scale">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Household Food Insecurity Access Scale</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./diet-diversity.html" class="pagination-link" aria-label="Measuring dietary diversity">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Measuring dietary diversity</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1029,4 +892,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/08-foodconsumption.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nutriverse/nutrisurvey/edit/main/06-standardisation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
